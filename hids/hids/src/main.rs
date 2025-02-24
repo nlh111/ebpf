@@ -97,10 +97,8 @@ async fn run_ebpf_program() -> anyhow::Result<()> {
 
     loop {
         interval.tick().await;
-
         // Print all events from the zombie_processes map
         let zombie_processes_size = zombie_processes.iter().count();
-        info!("Zombie Processes Map size: {:?}", zombie_processes_size);
         for result in zombie_processes.iter() {
             match result {
                 Ok((key, value)) => {
@@ -136,4 +134,5 @@ async fn run_ebpf_program() -> anyhow::Result<()> {
             );
         }
     }
+
 }

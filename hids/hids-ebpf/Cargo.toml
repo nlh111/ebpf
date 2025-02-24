@@ -4,9 +4,10 @@ version = "0.1.0"
 edition = "2021"
 
 [features]
-default = ["vmlinux_x86"]
+default = ["vmlinux_armlinux"]
 vmlinux_x86 = []
 vmlinux_android = []
+vmlinux_armlinux = []
 
 
 [dependencies]

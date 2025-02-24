@@ -10,6 +10,10 @@
 mod vmlinux_x86;
 #[cfg(feature = "vmlinux_x86")]
 use vmlinux_x86::*;
+#[cfg(feature = "vmlinux_armlinux")]
+mod vmlinux_armlinux;
+#[cfg(feature = "vmlinux_armlinux")]
+use vmlinux_armlinux::*;
 #[cfg(feature = "vmlinux_android")]
 mod vmlinux_android;
 use aya_ebpf::{
