@@ -1,0 +1,24 @@
+[package]
+name = "hids-ebpf"
+version = "0.1.0"
+edition = "2021"
+
+[features]
+default = ["vmlinux_armlinux"]
+vmlinux_x86 = []
+vmlinux_android = []
+vmlinux_armlinux = []
+
+
+[dependencies]
+hids-common = { path = "../hids-common" }
+
+aya-ebpf = { workspace = true }
+aya-log-ebpf = { workspace = true }
+
+[build-dependencies]
+which = { workspace = true }
+
+[[bin]]
+name = "hids"
+path = "src/main.rs"
