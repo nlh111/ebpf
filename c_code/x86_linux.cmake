@@ -1,0 +1,6 @@
+set(CMAKE_SYSTEM_NAME Linux)
+set(CMAKE_SYSTEM_PROCESSOR x86_64)
+set(CMAKE_CONTROL_NAME X86)
+set(tools /usr/bin)
+set(CMAKE_C_COMPILER ${tools}/gcc)
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -ldl -pthread")
