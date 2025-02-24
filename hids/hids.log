@@ -1,0 +1,67 @@
+03:12:57 [INFO] Zombie Processes Map size: 0
+03:12:58 [INFO] process exit, pid: 306135, parent_pid: 306134
+03:12:58 [INFO] process exit, pid: 306134, parent_pid: 280114
+03:12:58 [INFO] process exit, pid: 306137, parent_pid: 306136
+03:12:58 [INFO] process exit, pid: 306136, parent_pid: 280114
+03:12:58 [INFO] process exit, pid: 306140, parent_pid: 306139
+03:12:58 [INFO] process exit, pid: 306141, parent_pid: 306139
+03:12:58 [INFO] Successfully removed pid: 306135 from ZOMBIE_PROCESSES
+03:12:58 [INFO] Freeing process, pid: 306135
+03:12:58 [INFO] process exit, pid: 306142, parent_pid: 306139
+03:12:58 [INFO] process exit, pid: 306143, parent_pid: 306139
+03:12:58 [INFO] process exit, pid: 306144, parent_pid: 306139
+03:12:58 [INFO] Successfully removed pid: 306134 from ZOMBIE_PROCESSES
+03:12:58 [INFO] Freeing process, pid: 306134
+03:12:58 [INFO] Successfully removed pid: 306136 from ZOMBIE_PROCESSES
+03:12:58 [INFO] Freeing process, pid: 306136
+03:12:58 [INFO] Successfully removed pid: 306141 from ZOMBIE_PROCESSES
+03:12:58 [INFO] Freeing process, pid: 306141
+03:12:58 [INFO] Successfully removed pid: 306143 from ZOMBIE_PROCESSES
+03:12:58 [INFO] Freeing process, pid: 306143
+03:12:58 [INFO] Successfully removed pid: 306144 from ZOMBIE_PROCESSES
+03:12:58 [INFO] Freeing process, pid: 306144
+03:12:58 [INFO] Successfully removed pid: 306140 from ZOMBIE_PROCESSES
+03:12:58 [INFO] Freeing process, pid: 306140
+03:12:58 [INFO] Successfully removed pid: 306137 from ZOMBIE_PROCESSES
+03:12:58 [INFO] Freeing process, pid: 306137
+03:12:58 [INFO] Successfully removed pid: 306142 from ZOMBIE_PROCESSES
+03:12:58 [INFO] Freeing process, pid: 306142
+03:12:58 [INFO] Zombie Processes Map size: 0
+03:12:59 [INFO] process exit, pid: 306145, parent_pid: 306139
+03:12:59 [INFO] process exit, pid: 306146, parent_pid: 306139
+03:12:59 [INFO] process exit, pid: 306147, parent_pid: 306139
+03:12:59 [INFO] process exit, pid: 306148, parent_pid: 306139
+03:12:59 [INFO] process exit, pid: 306149, parent_pid: 306139
+03:12:59 [INFO] process exit, pid: 306150, parent_pid: 306139
+03:12:59 [INFO] process exit, pid: 306151, parent_pid: 306139
+03:12:59 [INFO] process exit, pid: 306152, parent_pid: 306139
+03:12:59 [INFO] process exit, pid: 306153, parent_pid: 306139
+03:12:59 [INFO] process exit, pid: 306154, parent_pid: 306139
+03:12:59 [INFO] process exit, pid: 306139, parent_pid: 306138
+03:12:59 [INFO] process exit, pid: 306138, parent_pid: 280114
+03:12:59 [INFO] Successfully removed pid: 306145 from ZOMBIE_PROCESSES
+03:12:59 [INFO] Freeing process, pid: 306145
+03:12:59 [INFO] Successfully removed pid: 306139 from ZOMBIE_PROCESSES
+03:12:59 [INFO] Freeing process, pid: 306139
+03:12:59 [INFO] Successfully removed pid: 306147 from ZOMBIE_PROCESSES
+03:12:59 [INFO] Freeing process, pid: 306147
+03:12:59 [INFO] Successfully removed pid: 306148 from ZOMBIE_PROCESSES
+03:12:59 [INFO] Freeing process, pid: 306148
+03:12:59 [INFO] Successfully removed pid: 306149 from ZOMBIE_PROCESSES
+03:12:59 [INFO] Freeing process, pid: 306149
+03:12:59 [INFO] Successfully removed pid: 306150 from ZOMBIE_PROCESSES
+03:12:59 [INFO] Freeing process, pid: 306150
+03:12:59 [INFO] Successfully removed pid: 306146 from ZOMBIE_PROCESSES
+03:12:59 [INFO] Freeing process, pid: 306146
+03:12:59 [INFO] Successfully removed pid: 306151 from ZOMBIE_PROCESSES
+03:12:59 [INFO] Freeing process, pid: 306151
+03:12:59 [INFO] Successfully removed pid: 306152 from ZOMBIE_PROCESSES
+03:12:59 [INFO] Freeing process, pid: 306152
+03:12:59 [INFO] Successfully removed pid: 306153 from ZOMBIE_PROCESSES
+03:12:59 [INFO] Freeing process, pid: 306153
+03:12:59 [INFO] Successfully removed pid: 306154 from ZOMBIE_PROCESSES
+03:12:59 [INFO] Freeing process, pid: 306154
+03:12:59 [INFO] Successfully removed pid: 306138 from ZOMBIE_PROCESSES
+03:12:59 [INFO] Freeing process, pid: 306138
+03:12:59 [INFO] Zombie Processes Map size: 0
+03:13:00 [INFO] Zombie Processes Map size: 0

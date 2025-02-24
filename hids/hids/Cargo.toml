@@ -12,7 +12,14 @@ aya-log = { workspace = true }
 env_logger = { workspace = true }
 libc = { workspace = true }
 log = { workspace = true }
-tokio = { workspace = true, features = ["macros", "rt", "rt-multi-thread", "net", "signal"] }
+tokio = { workspace = true, features = [
+    "macros",
+    "rt",
+    "rt-multi-thread",
+    "net",
+    "signal",
+] }
+simplelog = { workspace = true }
 
 [build-dependencies]
 anyhow = { workspace = true }
@@ -31,6 +38,7 @@ aya-build = { workspace = true }
 # features.
 hids-ebpf = { path = "../hids-ebpf" }
 
-[[bin]]
+[lib]
 name = "hids"
 path = "src/main.rs"
+crate-type = ["staticlib"]

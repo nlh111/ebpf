@@ -3,6 +3,12 @@ name = "hids-ebpf"
 version = "0.1.0"
 edition = "2021"
 
+[features]
+default = ["vmlinux_x86"]
+vmlinux_x86 = []
+vmlinux_android = []
+
+
 [dependencies]
 hids-common = { path = "../hids-common" }
 
