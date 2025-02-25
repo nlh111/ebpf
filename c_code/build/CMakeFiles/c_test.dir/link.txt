@@ -1,1 +1,0 @@
-/usr/bin/gcc  -ldl -pthread -ldl -pthread CMakeFiles/c_test.dir/src/main.c.o -o c_test  /home/xm/ebpf/hids/target/release/libhids.a -lm -lpthread -ldl 
