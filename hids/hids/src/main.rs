@@ -32,6 +32,7 @@ pub extern "C" fn start_ebpf_program() -> *mut c_char {
 }
 
 async fn run_ebpf_program() -> anyhow::Result<()> {
+    #[cfg(debug_assertions)]
     WriteLogger::init(
         LevelFilter::Info,
         ConfigBuilder::new()
@@ -98,7 +99,7 @@ async fn run_ebpf_program() -> anyhow::Result<()> {
     loop {
         interval.tick().await;
         // Print all events from the zombie_processes map
-        let zombie_processes_size = zombie_processes.iter().count();
+        // let zombie_processes_size = zombie_processes.iter().count();
         for result in zombie_processes.iter() {
             match result {
                 Ok((key, value)) => {

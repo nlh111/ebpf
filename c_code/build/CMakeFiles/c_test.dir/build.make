@@ -73,15 +73,15 @@ CMakeFiles/c_test.dir/src/main.c.o: CMakeFiles/c_test.dir/flags.make
 CMakeFiles/c_test.dir/src/main.c.o: ../src/main.c
 CMakeFiles/c_test.dir/src/main.c.o: CMakeFiles/c_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xm/ebpf/c_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/c_test.dir/src/main.c.o"
-	/home/xm/aarch64--glibc--stable-2022.03-1/bin/aarch64-buildroot-linux-gnu-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/c_test.dir/src/main.c.o -MF CMakeFiles/c_test.dir/src/main.c.o.d -o CMakeFiles/c_test.dir/src/main.c.o -c /home/xm/ebpf/c_code/src/main.c
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/c_test.dir/src/main.c.o -MF CMakeFiles/c_test.dir/src/main.c.o.d -o CMakeFiles/c_test.dir/src/main.c.o -c /home/xm/ebpf/c_code/src/main.c
 
 CMakeFiles/c_test.dir/src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_test.dir/src/main.c.i"
-	/home/xm/aarch64--glibc--stable-2022.03-1/bin/aarch64-buildroot-linux-gnu-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/xm/ebpf/c_code/src/main.c > CMakeFiles/c_test.dir/src/main.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/xm/ebpf/c_code/src/main.c > CMakeFiles/c_test.dir/src/main.c.i
 
 CMakeFiles/c_test.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_test.dir/src/main.c.s"
-	/home/xm/aarch64--glibc--stable-2022.03-1/bin/aarch64-buildroot-linux-gnu-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/xm/ebpf/c_code/src/main.c -o CMakeFiles/c_test.dir/src/main.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/xm/ebpf/c_code/src/main.c -o CMakeFiles/c_test.dir/src/main.c.s
 
 # Object files for target c_test
 c_test_OBJECTS = \
@@ -92,7 +92,7 @@ c_test_EXTERNAL_OBJECTS =
 
 c_test: CMakeFiles/c_test.dir/src/main.c.o
 c_test: CMakeFiles/c_test.dir/build.make
-c_test: /home/xm/ebpf/hids/target/aarch64-unknown-linux-gnu/release/libhids.a
+c_test: /home/xm/ebpf/hids/target/release/libhids.a
 c_test: CMakeFiles/c_test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xm/ebpf/c_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable c_test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/c_test.dir/link.txt --verbose=$(VERBOSE)

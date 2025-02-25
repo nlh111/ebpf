@@ -59,9 +59,61 @@ fn try_sched_process_exec(ctx: BtfTracePointContext) -> Result<i32, i32> {
     let comm = ctx.command().map_err(|e| e as i32)?;
     let pid = ctx.pid();
     unsafe {
-        let comm_str = core::str::from_utf8_unchecked(&comm);
-        if contains(comm_str, "su") {
-            info!(&ctx, "sudo/su command pid: {},  comm: {}", pid, comm_str);
+        //let comm_str = core::str::from_utf8_unchecked(&comm);
+        let null_pos = comm.iter().position(|&x| x == 0).unwrap_or(comm.len());
+        let valid_comm = &comm[..null_pos];
+        let comm_str = core::str::from_utf8_unchecked(valid_comm);
+
+        // TODO: check if the process is running as root privilege
+        let task: *const task_struct = ctx.arg(0);
+        let cred: *const cred = match bpf_probe_read_kernel(&(*task).cred) {
+            Ok(val) => val,
+            Err(e) => {
+                info!(&ctx, "Failed to read cred: {}", e);
+                return Err(e as i32);
+            }
+        };
+        let uid: u32 = match bpf_probe_read_kernel(&(*cred).uid.val) {
+            Ok(val) => val,
+            Err(e) => {
+                info!(&ctx, "Failed to read uid: {}", e);
+                return Err(e as i32);
+            }
+        };
+        let euid: u32 = match bpf_probe_read_kernel(&(*cred).euid.val) {
+            Ok(val) => val,
+            Err(e) => {
+                info!(&ctx, "Failed to read euid: {}", e);
+                return Err(e as i32);
+            }
+        };
+        let suid: u32 = match bpf_probe_read_kernel(&(*cred).suid.val) {
+            Ok(val) => val,
+            Err(e) => {
+                info!(&ctx, "Failed to read suid: {}", e);
+                return Err(e as i32);
+            }
+        };
+        info!(
+            &ctx,
+            "process exec, pid: {}, comm: {}, uid: {}, euid: {}, suid: {}",
+            pid,
+            comm_str,
+            uid,
+            euid,
+            suid
+        );
+
+        let mut is_root_elevated: bool = false;
+        if uid != euid && suid == 0 {
+            is_root_elevated = true;
+        }
+
+        if contains(comm_str, "su") || is_root_elevated {
+            info!(
+                &ctx,
+                "root process detect pid: {},  comm: {}", pid, comm_str
+            );
             // push the event to the queue
             ROOT_PROCESSES
                 .push(

@@ -16,7 +16,7 @@ if (CMAKE_CONTROL_NAME STREQUAL "ADD")
     m pthread dl)
 elseif (CMAKE_CONTROL_NAME STREQUAL "XCD")
     target_link_libraries(c_test ${PARENT_DIR}/hids/target/aarch64-linux-android/release/libhids.a
-    m pthread dl)
+    m dl)
 else()
     target_link_libraries(c_test ${PARENT_DIR}/hids/target/release/libhids.a 
     m pthread dl)

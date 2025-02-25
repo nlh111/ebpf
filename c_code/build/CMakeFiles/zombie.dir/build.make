@@ -73,15 +73,15 @@ CMakeFiles/zombie.dir/src/zombie.c.o: CMakeFiles/zombie.dir/flags.make
 CMakeFiles/zombie.dir/src/zombie.c.o: ../src/zombie.c
 CMakeFiles/zombie.dir/src/zombie.c.o: CMakeFiles/zombie.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xm/ebpf/c_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/zombie.dir/src/zombie.c.o"
-	/home/xm/aarch64--glibc--stable-2022.03-1/bin/aarch64-buildroot-linux-gnu-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zombie.dir/src/zombie.c.o -MF CMakeFiles/zombie.dir/src/zombie.c.o.d -o CMakeFiles/zombie.dir/src/zombie.c.o -c /home/xm/ebpf/c_code/src/zombie.c
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zombie.dir/src/zombie.c.o -MF CMakeFiles/zombie.dir/src/zombie.c.o.d -o CMakeFiles/zombie.dir/src/zombie.c.o -c /home/xm/ebpf/c_code/src/zombie.c
 
 CMakeFiles/zombie.dir/src/zombie.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zombie.dir/src/zombie.c.i"
-	/home/xm/aarch64--glibc--stable-2022.03-1/bin/aarch64-buildroot-linux-gnu-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/xm/ebpf/c_code/src/zombie.c > CMakeFiles/zombie.dir/src/zombie.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/xm/ebpf/c_code/src/zombie.c > CMakeFiles/zombie.dir/src/zombie.c.i
 
 CMakeFiles/zombie.dir/src/zombie.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zombie.dir/src/zombie.c.s"
-	/home/xm/aarch64--glibc--stable-2022.03-1/bin/aarch64-buildroot-linux-gnu-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/xm/ebpf/c_code/src/zombie.c -o CMakeFiles/zombie.dir/src/zombie.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/xm/ebpf/c_code/src/zombie.c -o CMakeFiles/zombie.dir/src/zombie.c.s
 
 # Object files for target zombie
 zombie_OBJECTS = \
