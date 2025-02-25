@@ -11,5 +11,3 @@ target/
 # log file
 *.log
 
-# cmake build directory
-../c_code/build/
