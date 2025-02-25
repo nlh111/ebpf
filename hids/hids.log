@@ -1,949 +1,248 @@
-12:23:03 [INFO] process exec, pid: 414416, comm: sh, uid: 1000, euid: 1000, suid: 1000
-12:23:03 [INFO] process exec, pid: 414417, comm: which, uid: 1000, euid: 1000, suid: 1000
-12:23:03 [INFO] process exit, pid: 414417, parent_pid: 414416
-12:23:03 [INFO] process exit, pid: 414416, parent_pid: 347489
-12:23:03 [INFO] process exec, pid: 414418, comm: sh, uid: 1000, euid: 1000, suid: 1000
-12:23:03 [INFO] process exec, pid: 414419, comm: ps, uid: 1000, euid: 1000, suid: 1000
-12:23:03 [INFO] process exit, pid: 414419, parent_pid: 414418
-12:23:03 [INFO] process exit, pid: 414418, parent_pid: 347489
-12:23:03 [INFO] process exec, pid: 414420, comm: sh, uid: 1000, euid: 1000, suid: 1000
-12:23:03 [INFO] Successfully removed pid: 414416 from ZOMBIE_PROCESSES
-12:23:03 [INFO] Freeing process, pid: 414416
-12:23:03 [INFO] Successfully removed pid: 414417 from ZOMBIE_PROCESSES
-12:23:03 [INFO] Freeing process, pid: 414417
-12:23:03 [INFO] process exec, pid: 414421, comm: cpuUsage.sh, uid: 1000, euid: 1000, suid: 1000
-12:23:03 [INFO] process exec, pid: 414422, comm: sed, uid: 1000, euid: 1000, suid: 1000
-12:23:03 [INFO] process exit, pid: 414422, parent_pid: 414421
-12:23:03 [INFO] process exec, pid: 414423, comm: cat, uid: 1000, euid: 1000, suid: 1000
-12:23:03 [INFO] process exit, pid: 414423, parent_pid: 414421
-12:23:03 [INFO] process exec, pid: 414424, comm: cat, uid: 1000, euid: 1000, suid: 1000
-12:23:03 [INFO] process exit, pid: 414424, parent_pid: 414421
-12:23:03 [INFO] process exec, pid: 414425, comm: cat, uid: 1000, euid: 1000, suid: 1000
-12:23:03 [INFO] process exit, pid: 414425, parent_pid: 414421
-12:23:03 [INFO] process exec, pid: 414426, comm: cat, uid: 1000, euid: 1000, suid: 1000
-12:23:03 [INFO] process exit, pid: 414426, parent_pid: 414421
-12:23:03 [INFO] process exec, pid: 414427, comm: cat, uid: 1000, euid: 1000, suid: 1000
-12:23:03 [INFO] process exit, pid: 414427, parent_pid: 414421
-12:23:03 [INFO] process exec, pid: 414428, comm: cat, uid: 1000, euid: 1000, suid: 1000
-12:23:03 [INFO] process exit, pid: 414428, parent_pid: 414421
-12:23:03 [INFO] process exec, pid: 414429, comm: sleep, uid: 1000, euid: 1000, suid: 1000
-12:23:03 [INFO] Successfully removed pid: 414419 from ZOMBIE_PROCESSES
-12:23:03 [INFO] Freeing process, pid: 414419
-12:23:03 [INFO] Successfully removed pid: 414418 from ZOMBIE_PROCESSES
-12:23:03 [INFO] Freeing process, pid: 414418
-12:23:03 [INFO] Successfully removed pid: 414422 from ZOMBIE_PROCESSES
-12:23:03 [INFO] Freeing process, pid: 414422
-12:23:03 [INFO] Successfully removed pid: 414423 from ZOMBIE_PROCESSES
-12:23:03 [INFO] Freeing process, pid: 414423
-12:23:03 [INFO] Successfully removed pid: 414424 from ZOMBIE_PROCESSES
-12:23:03 [INFO] Freeing process, pid: 414424
-12:23:03 [INFO] Successfully removed pid: 414425 from ZOMBIE_PROCESSES
-12:23:03 [INFO] Freeing process, pid: 414425
-12:23:03 [INFO] Successfully removed pid: 414426 from ZOMBIE_PROCESSES
-12:23:03 [INFO] Freeing process, pid: 414426
-12:23:03 [INFO] Successfully removed pid: 414427 from ZOMBIE_PROCESSES
-12:23:03 [INFO] Freeing process, pid: 414427
-12:23:03 [INFO] Successfully removed pid: 414428 from ZOMBIE_PROCESSES
-12:23:03 [INFO] Freeing process, pid: 414428
-12:23:04 [INFO] process exit, pid: 414429, parent_pid: 414421
-12:23:04 [INFO] process exec, pid: 414430, comm: sed, uid: 1000, euid: 1000, suid: 1000
-12:23:04 [INFO] process exit, pid: 414430, parent_pid: 414421
-12:23:04 [INFO] process exec, pid: 414431, comm: cat, uid: 1000, euid: 1000, suid: 1000
-12:23:04 [INFO] process exit, pid: 414431, parent_pid: 414421
-12:23:04 [INFO] process exit, pid: 414432, parent_pid: 414421
-12:23:04 [INFO] process exec, pid: 414433, comm: cat, uid: 1000, euid: 1000, suid: 1000
-12:23:04 [INFO] process exit, pid: 414433, parent_pid: 414421
-12:23:04 [INFO] process exit, pid: 414434, parent_pid: 414421
-12:23:04 [INFO] process exec, pid: 414435, comm: cat, uid: 1000, euid: 1000, suid: 1000
-12:23:04 [INFO] process exit, pid: 414435, parent_pid: 414421
-12:23:04 [INFO] process exit, pid: 414436, parent_pid: 414421
-12:23:04 [INFO] process exec, pid: 414437, comm: cat, uid: 1000, euid: 1000, suid: 1000
-12:23:04 [INFO] process exit, pid: 414437, parent_pid: 414421
-12:23:04 [INFO] process exit, pid: 414438, parent_pid: 414421
-12:23:04 [INFO] process exec, pid: 414439, comm: cat, uid: 1000, euid: 1000, suid: 1000
-12:23:04 [INFO] process exit, pid: 414439, parent_pid: 414421
-12:23:04 [INFO] process exit, pid: 414440, parent_pid: 414421
-12:23:04 [INFO] process exec, pid: 414441, comm: cat, uid: 1000, euid: 1000, suid: 1000
-12:23:04 [INFO] process exit, pid: 414441, parent_pid: 414421
-12:23:04 [INFO] process exit, pid: 414442, parent_pid: 414421
-12:23:04 [INFO] process exit, pid: 414421, parent_pid: 414420
-12:23:04 [INFO] process exit, pid: 414420, parent_pid: 347489
-12:23:04 [INFO] Successfully removed pid: 414429 from ZOMBIE_PROCESSES
-12:23:04 [INFO] Freeing process, pid: 414429
-12:23:04 [INFO] Successfully removed pid: 414430 from ZOMBIE_PROCESSES
-12:23:04 [INFO] Freeing process, pid: 414430
-12:23:04 [INFO] Successfully removed pid: 414431 from ZOMBIE_PROCESSES
-12:23:04 [INFO] Freeing process, pid: 414431
-12:23:04 [INFO] Successfully removed pid: 414432 from ZOMBIE_PROCESSES
-12:23:04 [INFO] Freeing process, pid: 414432
-12:23:04 [INFO] Successfully removed pid: 414433 from ZOMBIE_PROCESSES
-12:23:04 [INFO] Freeing process, pid: 414433
-12:23:04 [INFO] Successfully removed pid: 414434 from ZOMBIE_PROCESSES
-12:23:04 [INFO] Freeing process, pid: 414434
-12:23:04 [INFO] Successfully removed pid: 414435 from ZOMBIE_PROCESSES
-12:23:04 [INFO] Freeing process, pid: 414435
-12:23:04 [INFO] Successfully removed pid: 414436 from ZOMBIE_PROCESSES
-12:23:04 [INFO] Freeing process, pid: 414436
-12:23:04 [INFO] Successfully removed pid: 414420 from ZOMBIE_PROCESSES
-12:23:04 [INFO] Freeing process, pid: 414420
-12:23:04 [INFO] Successfully removed pid: 414437 from ZOMBIE_PROCESSES
-12:23:04 [INFO] Freeing process, pid: 414437
-12:23:04 [INFO] Successfully removed pid: 414438 from ZOMBIE_PROCESSES
-12:23:04 [INFO] Freeing process, pid: 414438
-12:23:04 [INFO] Successfully removed pid: 414421 from ZOMBIE_PROCESSES
-12:23:04 [INFO] Freeing process, pid: 414421
-12:23:04 [INFO] Successfully removed pid: 414439 from ZOMBIE_PROCESSES
-12:23:04 [INFO] Freeing process, pid: 414439
-12:23:04 [INFO] Successfully removed pid: 414440 from ZOMBIE_PROCESSES
-12:23:04 [INFO] Freeing process, pid: 414440
-12:23:04 [INFO] Successfully removed pid: 414441 from ZOMBIE_PROCESSES
-12:23:04 [INFO] Freeing process, pid: 414441
-12:23:04 [INFO] Successfully removed pid: 414442 from ZOMBIE_PROCESSES
-12:23:04 [INFO] Freeing process, pid: 414442
-12:23:05 [INFO] process exec, pid: 414443, comm: zsh, uid: 1000, euid: 1000, suid: 1000
-12:23:05 [INFO] process exit, pid: 414445, parent_pid: 414443
-12:23:05 [INFO] process exec, pid: 414446, comm: stty, uid: 1000, euid: 1000, suid: 1000
-12:23:05 [INFO] process exit, pid: 414446, parent_pid: 414443
-12:23:05 [INFO] process exit, pid: 414447, parent_pid: 414443
-12:23:05 [INFO] process exit, pid: 414450, parent_pid: 414443
-12:23:05 [INFO] process exec, pid: 414451, comm: uname, uid: 1000, euid: 1000, suid: 1000
-12:23:05 [INFO] process exec, pid: 414452, comm: mkdir, uid: 1000, euid: 1000, suid: 1000
-12:23:05 [INFO] process exit, pid: 414451, parent_pid: 414448
-12:23:05 [INFO] process exit, pid: 414452, parent_pid: 414443
-12:23:05 [INFO] process exec, pid: 414453, comm: getconf, uid: 1000, euid: 1000, suid: 1000
-12:23:05 [INFO] process exit, pid: 414453, parent_pid: 414448
-12:23:05 [INFO] process exec, pid: 414455, comm: git, uid: 1000, euid: 1000, suid: 1000
-12:23:05 [INFO] process exec, pid: 414456, comm: mkfifo, uid: 1000, euid: 1000, suid: 1000
-12:23:05 [INFO] process exit, pid: 414456, parent_pid: 414448
-12:23:05 [INFO] process exit, pid: 414455, parent_pid: 414454
-12:23:05 [INFO] process exit, pid: 414454, parent_pid: 414443
-12:23:05 [INFO] process exec, pid: 414457, comm: grep, uid: 1000, euid: 1000, suid: 1000
-12:23:05 [INFO] process exit, pid: 414457, parent_pid: 414443
-12:23:05 [INFO] Successfully removed pid: 414445 from ZOMBIE_PROCESSES
-12:23:05 [INFO] Freeing process, pid: 414445
-12:23:05 [INFO] process exec, pid: 414458, comm: grep, uid: 1000, euid: 1000, suid: 1000
-12:23:05 [INFO] process exit, pid: 414458, parent_pid: 414443
-12:23:05 [INFO] Successfully removed pid: 414451 from ZOMBIE_PROCESSES
-12:23:05 [INFO] Freeing process, pid: 414451
-12:23:05 [INFO] process exec, pid: 414459, comm: getent, uid: 1000, euid: 1000, suid: 1000
-12:23:05 [INFO] process exit, pid: 414459, parent_pid: 414443
-12:23:05 [INFO] Successfully removed pid: 414450 from ZOMBIE_PROCESSES
-12:23:05 [INFO] Freeing process, pid: 414450
-12:23:05 [INFO] Successfully removed pid: 414446 from ZOMBIE_PROCESSES
-12:23:05 [INFO] Freeing process, pid: 414446
-12:23:05 [INFO] process exit, pid: 414460, parent_pid: 414443
-12:23:05 [INFO] process exec, pid: 414462, comm: grep, uid: 1000, euid: 1000, suid: 1000
-12:23:05 [INFO] process exit, pid: 414462, parent_pid: 414443
-12:23:05 [INFO] process exec, pid: 414464, comm: mkdir, uid: 1000, euid: 1000, suid: 1000
-12:23:05 [INFO] process exit, pid: 414464, parent_pid: 414443
-12:23:05 [INFO] process exit, pid: 414466, parent_pid: 414465
-12:23:05 [INFO] process exec, pid: 414467, comm: wc, uid: 1000, euid: 1000, suid: 1000
-12:23:05 [INFO] process exit, pid: 414467, parent_pid: 414465
-12:23:05 [INFO] process exit, pid: 414465, parent_pid: 414443
-12:23:05 [INFO] process exec, pid: 414468, comm: rm, uid: 1000, euid: 1000, suid: 1000
-12:23:05 [INFO] Successfully removed pid: 414453 from ZOMBIE_PROCESSES
-12:23:05 [INFO] Freeing process, pid: 414453
-12:23:05 [INFO] Successfully removed pid: 414456 from ZOMBIE_PROCESSES
-12:23:05 [INFO] Freeing process, pid: 414456
-12:23:05 [INFO] Successfully removed pid: 414455 from ZOMBIE_PROCESSES
-12:23:05 [INFO] Freeing process, pid: 414455
-12:23:05 [INFO] process exit, pid: 414468, parent_pid: 414443
-12:23:05 [INFO] Successfully removed pid: 414447 from ZOMBIE_PROCESSES
-12:23:05 [INFO] Freeing process, pid: 414447
-12:23:05 [INFO] Successfully removed pid: 414452 from ZOMBIE_PROCESSES
-12:23:05 [INFO] Freeing process, pid: 414452
-12:23:05 [INFO] Successfully removed pid: 414454 from ZOMBIE_PROCESSES
-12:23:05 [INFO] Freeing process, pid: 414454
-12:23:05 [INFO] Successfully removed pid: 414457 from ZOMBIE_PROCESSES
-12:23:05 [INFO] Freeing process, pid: 414457
-12:23:05 [INFO] Successfully removed pid: 414458 from ZOMBIE_PROCESSES
-12:23:05 [INFO] Freeing process, pid: 414458
-12:23:05 [INFO] process exec, pid: 414469, comm: getent, uid: 1000, euid: 1000, suid: 1000
-12:23:05 [INFO] process exit, pid: 414469, parent_pid: 414463
-12:23:05 [INFO] process exit, pid: 414463, parent_pid: 414461
-12:23:05 [INFO] process exit, pid: 414461, parent_pid: 414443
-12:23:05 [INFO] process exec, pid: 414470, comm: diff, uid: 1000, euid: 1000, suid: 1000
-12:23:05 [INFO] process exit, pid: 414470, parent_pid: 414443
-12:23:05 [INFO] process exec, pid: 414471, comm: dircolors, uid: 1000, euid: 1000, suid: 1000
-12:23:05 [INFO] process exit, pid: 414471, parent_pid: 414443
-12:23:05 [INFO] Successfully removed pid: 414466 from ZOMBIE_PROCESSES
-12:23:05 [INFO] Freeing process, pid: 414466
-12:23:05 [INFO] Successfully removed pid: 414459 from ZOMBIE_PROCESSES
-12:23:05 [INFO] Freeing process, pid: 414459
-12:23:05 [INFO] Successfully removed pid: 414460 from ZOMBIE_PROCESSES
-12:23:05 [INFO] Freeing process, pid: 414460
-12:23:05 [INFO] process exec, pid: 414472, comm: ls, uid: 1000, euid: 1000, suid: 1000
-12:23:05 [INFO] process exit, pid: 414472, parent_pid: 414443
-12:23:05 [INFO] process exec, pid: 414474, comm: git, uid: 1000, euid: 1000, suid: 1000
-12:23:05 [INFO] Successfully removed pid: 414467 from ZOMBIE_PROCESSES
-12:23:05 [INFO] Freeing process, pid: 414467
-12:23:05 [INFO] Successfully removed pid: 414464 from ZOMBIE_PROCESSES
-12:23:05 [INFO] Freeing process, pid: 414464
-12:23:05 [INFO] Successfully removed pid: 414468 from ZOMBIE_PROCESSES
-12:23:05 [INFO] Freeing process, pid: 414468
-12:23:05 [INFO] Successfully removed pid: 414462 from ZOMBIE_PROCESSES
-12:23:05 [INFO] Freeing process, pid: 414462
-12:23:05 [INFO] Successfully removed pid: 414465 from ZOMBIE_PROCESSES
-12:23:05 [INFO] Freeing process, pid: 414465
-12:23:05 [INFO] process exit, pid: 414473, parent_pid: 414443
-12:23:05 [INFO] process exit, pid: 414474, parent_pid: 414473
-12:23:05 [INFO] Successfully removed pid: 414469 from ZOMBIE_PROCESSES
-12:23:05 [INFO] Freeing process, pid: 414469
-12:23:05 [INFO] Successfully removed pid: 414463 from ZOMBIE_PROCESSES
-12:23:05 [INFO] Freeing process, pid: 414463
-12:23:05 [INFO] process exec, pid: 414476, comm: uname, uid: 1000, euid: 1000, suid: 1000
-12:23:05 [INFO] process exit, pid: 414476, parent_pid: 414475
-12:23:05 [INFO] process exit, pid: 414475, parent_pid: 414443
-12:23:05 [INFO] process exit, pid: 414477, parent_pid: 414443
-12:23:05 [INFO] Successfully removed pid: 414461 from ZOMBIE_PROCESSES
-12:23:05 [INFO] Freeing process, pid: 414461
-12:23:05 [INFO] Successfully removed pid: 414470 from ZOMBIE_PROCESSES
-12:23:05 [INFO] Freeing process, pid: 414470
-12:23:05 [INFO] Successfully removed pid: 414471 from ZOMBIE_PROCESSES
-12:23:05 [INFO] Freeing process, pid: 414471
-12:23:05 [INFO] Successfully removed pid: 414472 from ZOMBIE_PROCESSES
-12:23:05 [INFO] Freeing process, pid: 414472
-12:23:05 [INFO] Successfully removed pid: 414473 from ZOMBIE_PROCESSES
-12:23:05 [INFO] Freeing process, pid: 414473
-12:23:05 [INFO] Successfully removed pid: 414474 from ZOMBIE_PROCESSES
-12:23:05 [INFO] Freeing process, pid: 414474
-12:23:05 [INFO] process exit, pid: 414478, parent_pid: 414443
-12:23:05 [INFO] Successfully removed pid: 414475 from ZOMBIE_PROCESSES
-12:23:05 [INFO] Freeing process, pid: 414475
-12:23:05 [INFO] Successfully removed pid: 414477 from ZOMBIE_PROCESSES
-12:23:05 [INFO] Freeing process, pid: 414477
-12:23:05 [INFO] Successfully removed pid: 414476 from ZOMBIE_PROCESSES
-12:23:05 [INFO] Freeing process, pid: 414476
-12:23:05 [INFO] process exit, pid: 414479, parent_pid: 414443
-12:23:05 [INFO] Successfully removed pid: 414478 from ZOMBIE_PROCESSES
-12:23:05 [INFO] Freeing process, pid: 414478
-12:23:05 [INFO] process exit, pid: 414011, parent_pid: 400748
-12:23:05 [INFO] process exit, pid: 414014, parent_pid: 400748
-12:23:05 [INFO] process exit, pid: 414031, parent_pid: 400748
-12:23:05 [INFO] process exit, pid: 414013, parent_pid: 400748
-12:23:05 [INFO] process exit, pid: 414015, parent_pid: 400748
-12:23:05 [INFO] process exit, pid: 414016, parent_pid: 400748
-12:23:05 [INFO] process exit, pid: 414012, parent_pid: 400748
-12:23:05 [INFO] process exec, pid: 414480, comm: true, uid: 1000, euid: 1000, suid: 1000
-12:23:05 [INFO] process exit, pid: 414480, parent_pid: 414443
-12:23:05 [INFO] process exec, pid: 414483, comm: mkfifo, uid: 1000, euid: 1000, suid: 1000
-12:23:05 [INFO] process exit, pid: 414483, parent_pid: 414481
-12:23:05 [INFO] process exec, pid: 414484, comm: gitstatusd-linu, uid: 1000, euid: 1000, suid: 1000
-12:23:05 [INFO] process exec, pid: 414517, comm: sleep, uid: 1000, euid: 1000, suid: 1000
-12:23:05 [INFO] Successfully removed pid: 414011 from ZOMBIE_PROCESSES
-12:23:05 [INFO] Freeing process, pid: 414011
-12:23:05 [INFO] Successfully removed pid: 414016 from ZOMBIE_PROCESSES
-12:23:05 [INFO] Freeing process, pid: 414016
-12:23:05 [INFO] process exec, pid: 414518, comm: cat, uid: 1000, euid: 1000, suid: 1000
-12:23:05 [INFO] Successfully removed pid: 414031 from ZOMBIE_PROCESSES
-12:23:05 [INFO] Freeing process, pid: 414031
-12:23:05 [INFO] Successfully removed pid: 414479 from ZOMBIE_PROCESSES
-12:23:05 [INFO] Freeing process, pid: 414479
-12:23:05 [INFO] process exit, pid: 414518, parent_pid: 414443
-12:23:05 [INFO] Successfully removed pid: 414015 from ZOMBIE_PROCESSES
-12:23:05 [INFO] Freeing process, pid: 414015
-12:23:05 [INFO] Successfully removed pid: 414013 from ZOMBIE_PROCESSES
-12:23:05 [INFO] Freeing process, pid: 414013
-12:23:05 [INFO] Successfully removed pid: 414014 from ZOMBIE_PROCESSES
-12:23:05 [INFO] Freeing process, pid: 414014
-12:23:05 [INFO] Successfully removed pid: 414012 from ZOMBIE_PROCESSES
-12:23:05 [INFO] Freeing process, pid: 414012
-12:23:05 [INFO] Successfully removed pid: 414480 from ZOMBIE_PROCESSES
-12:23:05 [INFO] Freeing process, pid: 414480
-12:23:05 [INFO] Successfully removed pid: 414518 from ZOMBIE_PROCESSES
-12:23:05 [INFO] Freeing process, pid: 414518
-12:23:05 [INFO] Successfully removed pid: 414483 from ZOMBIE_PROCESSES
-12:23:05 [INFO] Freeing process, pid: 414483
-12:23:05 [INFO] process exit, pid: 414010, parent_pid: 400748
-12:23:06 [INFO] process exit, pid: 414519, parent_pid: 414443
-12:23:06 [INFO] process exit, pid: 414520, parent_pid: 414443
-12:23:06 [INFO] Successfully removed pid: 414519 from ZOMBIE_PROCESSES
-12:23:06 [INFO] Freeing process, pid: 414519
-12:23:06 [INFO] Successfully removed pid: 414520 from ZOMBIE_PROCESSES
-12:23:06 [INFO] Freeing process, pid: 414520
-12:23:07 [INFO] process exec, pid: 414521, comm: git, uid: 1000, euid: 1000, suid: 1000
-12:23:07 [INFO] process exit, pid: 414521, parent_pid: 400748
-12:23:07 [INFO] process exec, pid: 414522, comm: node, uid: 1000, euid: 1000, suid: 1000
-12:23:07 [INFO] Successfully removed pid: 414010 from ZOMBIE_PROCESSES
-12:23:07 [INFO] Freeing process, pid: 414010
-12:23:07 [INFO] Successfully removed pid: 414521 from ZOMBIE_PROCESSES
-12:23:07 [INFO] Freeing process, pid: 414521
-12:23:07 [INFO] process exec, pid: 414523, comm: git, uid: 1000, euid: 1000, suid: 1000
-12:23:07 [INFO] process exit, pid: 414523, parent_pid: 400748
-12:23:07 [INFO] process exec, pid: 414530, comm: git, uid: 1000, euid: 1000, suid: 1000
-12:23:07 [INFO] process exit, pid: 414530, parent_pid: 400748
-12:23:07 [INFO] process exec, pid: 414531, comm: git, uid: 1000, euid: 1000, suid: 1000
-12:23:07 [INFO] process exit, pid: 414531, parent_pid: 400748
-12:23:07 [INFO] Successfully removed pid: 414523 from ZOMBIE_PROCESSES
-12:23:07 [INFO] Freeing process, pid: 414523
-12:23:07 [INFO] Successfully removed pid: 414530 from ZOMBIE_PROCESSES
-12:23:07 [INFO] Freeing process, pid: 414530
-12:23:07 [INFO] Successfully removed pid: 414531 from ZOMBIE_PROCESSES
-12:23:07 [INFO] Freeing process, pid: 414531
-12:23:07 [INFO] process exec, pid: 414532, comm: find, uid: 1000, euid: 1000, suid: 1000
-12:23:08 [INFO] process exec, pid: 414533, comm: python, uid: 1000, euid: 1000, suid: 1000
-12:23:08 [INFO] process exit, pid: 414533, parent_pid: 414522
-12:23:08 [INFO] process exec, pid: 414535, comm: python, uid: 1000, euid: 1000, suid: 1000
-12:23:08 [INFO] Successfully removed pid: 414533 from ZOMBIE_PROCESSES
-12:23:08 [INFO] Freeing process, pid: 414533
-12:23:08 [INFO] process exit, pid: 414535, parent_pid: 414522
-12:23:08 [INFO] Successfully removed pid: 414535 from ZOMBIE_PROCESSES
-12:23:08 [INFO] Freeing process, pid: 414535
-12:23:08 [INFO] process exec, pid: 414536, comm: python, uid: 1000, euid: 1000, suid: 1000
-12:23:08 [INFO] process exit, pid: 414536, parent_pid: 414534
-12:23:08 [INFO] Successfully removed pid: 414536 from ZOMBIE_PROCESSES
-12:23:08 [INFO] Freeing process, pid: 414536
-12:23:08 [INFO] process exec, pid: 414537, comm: sh, uid: 1000, euid: 1000, suid: 1000
-12:23:08 [INFO] process exec, pid: 414538, comm: which, uid: 1000, euid: 1000, suid: 1000
-12:23:08 [INFO] process exit, pid: 414538, parent_pid: 414537
-12:23:08 [INFO] process exit, pid: 414537, parent_pid: 347489
-12:23:08 [INFO] process exec, pid: 414539, comm: sh, uid: 1000, euid: 1000, suid: 1000
-12:23:08 [INFO] process exec, pid: 414540, comm: ps, uid: 1000, euid: 1000, suid: 1000
-12:23:08 [INFO] process exit, pid: 414540, parent_pid: 414539
-12:23:08 [INFO] process exit, pid: 414539, parent_pid: 347489
-12:23:08 [INFO] process exec, pid: 414541, comm: sh, uid: 1000, euid: 1000, suid: 1000
-12:23:08 [INFO] process exec, pid: 414542, comm: cpuUsage.sh, uid: 1000, euid: 1000, suid: 1000
-12:23:08 [INFO] process exec, pid: 414543, comm: sed, uid: 1000, euid: 1000, suid: 1000
-12:23:08 [INFO] process exit, pid: 414543, parent_pid: 414542
-12:23:08 [INFO] process exec, pid: 414544, comm: cat, uid: 1000, euid: 1000, suid: 1000
-12:23:08 [INFO] process exit, pid: 414544, parent_pid: 414542
-12:23:08 [INFO] process exec, pid: 414545, comm: cat, uid: 1000, euid: 1000, suid: 1000
-12:23:08 [INFO] process exit, pid: 414545, parent_pid: 414542
-12:23:08 [INFO] process exec, pid: 414546, comm: cat, uid: 1000, euid: 1000, suid: 1000
-12:23:08 [INFO] process exit, pid: 414546, parent_pid: 414542
-12:23:08 [INFO] process exec, pid: 414547, comm: cat, uid: 1000, euid: 1000, suid: 1000
-12:23:08 [INFO] process exit, pid: 414547, parent_pid: 414542
-12:23:08 [INFO] process exec, pid: 414548, comm: cat, uid: 1000, euid: 1000, suid: 1000
-12:23:08 [INFO] Successfully removed pid: 414538 from ZOMBIE_PROCESSES
-12:23:08 [INFO] Freeing process, pid: 414538
-12:23:08 [INFO] process exit, pid: 414548, parent_pid: 414542
-12:23:08 [INFO] process exec, pid: 414549, comm: cat, uid: 1000, euid: 1000, suid: 1000
-12:23:08 [INFO] process exit, pid: 414549, parent_pid: 414542
-12:23:08 [INFO] process exec, pid: 414550, comm: sleep, uid: 1000, euid: 1000, suid: 1000
-12:23:08 [INFO] Successfully removed pid: 414545 from ZOMBIE_PROCESSES
-12:23:08 [INFO] Freeing process, pid: 414545
-12:23:08 [INFO] Successfully removed pid: 414537 from ZOMBIE_PROCESSES
-12:23:08 [INFO] Freeing process, pid: 414537
-12:23:08 [INFO] Successfully removed pid: 414539 from ZOMBIE_PROCESSES
-12:23:08 [INFO] Freeing process, pid: 414539
-12:23:08 [INFO] Successfully removed pid: 414543 from ZOMBIE_PROCESSES
-12:23:08 [INFO] Freeing process, pid: 414543
-12:23:08 [INFO] Successfully removed pid: 414540 from ZOMBIE_PROCESSES
-12:23:08 [INFO] Freeing process, pid: 414540
-12:23:08 [INFO] process exec, pid: 414551, comm: sh, uid: 1000, euid: 1000, suid: 1000
-12:23:08 [INFO] process exec, pid: 414552, comm: which, uid: 1000, euid: 1000, suid: 1000
-12:23:08 [INFO] process exit, pid: 414552, parent_pid: 414551
-12:23:08 [INFO] process exit, pid: 414551, parent_pid: 347489
-12:23:08 [INFO] Successfully removed pid: 414549 from ZOMBIE_PROCESSES
-12:23:08 [INFO] Freeing process, pid: 414549
-12:23:08 [INFO] Successfully removed pid: 414546 from ZOMBIE_PROCESSES
-12:23:08 [INFO] Freeing process, pid: 414546
-12:23:08 [INFO] process exec, pid: 414553, comm: sh, uid: 1000, euid: 1000, suid: 1000
-12:23:08 [INFO] process exec, pid: 414554, comm: ps, uid: 1000, euid: 1000, suid: 1000
-12:23:08 [INFO] Successfully removed pid: 414544 from ZOMBIE_PROCESSES
-12:23:08 [INFO] Freeing process, pid: 414544
-12:23:08 [INFO] Successfully removed pid: 414547 from ZOMBIE_PROCESSES
-12:23:08 [INFO] Freeing process, pid: 414547
-12:23:08 [INFO] Successfully removed pid: 414548 from ZOMBIE_PROCESSES
-12:23:08 [INFO] Freeing process, pid: 414548
-12:23:08 [INFO] process exit, pid: 414554, parent_pid: 414553
-12:23:08 [INFO] process exit, pid: 414553, parent_pid: 347489
-12:23:08 [INFO] process exec, pid: 414555, comm: sh, uid: 1000, euid: 1000, suid: 1000
-12:23:08 [INFO] process exec, pid: 414556, comm: cpuUsage.sh, uid: 1000, euid: 1000, suid: 1000
-12:23:08 [INFO] process exec, pid: 414557, comm: sed, uid: 1000, euid: 1000, suid: 1000
-12:23:08 [INFO] process exit, pid: 414557, parent_pid: 414556
-12:23:08 [INFO] Successfully removed pid: 414552 from ZOMBIE_PROCESSES
-12:23:08 [INFO] Freeing process, pid: 414552
-12:23:08 [INFO] Successfully removed pid: 414551 from ZOMBIE_PROCESSES
-12:23:08 [INFO] Freeing process, pid: 414551
-12:23:08 [INFO] process exec, pid: 414558, comm: cat, uid: 1000, euid: 1000, suid: 1000
-12:23:08 [INFO] process exit, pid: 414558, parent_pid: 414556
-12:23:08 [INFO] process exec, pid: 414559, comm: cat, uid: 1000, euid: 1000, suid: 1000
-12:23:08 [INFO] process exit, pid: 414559, parent_pid: 414556
-12:23:08 [INFO] process exec, pid: 414560, comm: sleep, uid: 1000, euid: 1000, suid: 1000
-12:23:08 [INFO] Successfully removed pid: 414557 from ZOMBIE_PROCESSES
-12:23:08 [INFO] Freeing process, pid: 414557
-12:23:08 [INFO] Successfully removed pid: 414554 from ZOMBIE_PROCESSES
-12:23:08 [INFO] Freeing process, pid: 414554
-12:23:08 [INFO] Successfully removed pid: 414553 from ZOMBIE_PROCESSES
-12:23:08 [INFO] Freeing process, pid: 414553
-12:23:08 [INFO] Successfully removed pid: 414558 from ZOMBIE_PROCESSES
-12:23:08 [INFO] Freeing process, pid: 414558
-12:23:08 [INFO] Successfully removed pid: 414559 from ZOMBIE_PROCESSES
-12:23:08 [INFO] Freeing process, pid: 414559
-12:23:09 [INFO] process exit, pid: 414550, parent_pid: 414542
-12:23:09 [INFO] process exec, pid: 414561, comm: sed, uid: 1000, euid: 1000, suid: 1000
-12:23:09 [INFO] process exit, pid: 414561, parent_pid: 414542
-12:23:09 [INFO] process exec, pid: 414562, comm: cat, uid: 1000, euid: 1000, suid: 1000
-12:23:09 [INFO] process exit, pid: 414562, parent_pid: 414542
-12:23:09 [INFO] process exit, pid: 414563, parent_pid: 414542
-12:23:09 [INFO] process exec, pid: 414564, comm: cat, uid: 1000, euid: 1000, suid: 1000
-12:23:09 [INFO] process exit, pid: 414564, parent_pid: 414542
-12:23:09 [INFO] process exit, pid: 414565, parent_pid: 414542
-12:23:09 [INFO] process exec, pid: 414566, comm: cat, uid: 1000, euid: 1000, suid: 1000
-12:23:09 [INFO] process exit, pid: 414566, parent_pid: 414542
-12:23:09 [INFO] process exit, pid: 414567, parent_pid: 414542
-12:23:09 [INFO] process exec, pid: 414568, comm: cat, uid: 1000, euid: 1000, suid: 1000
-12:23:09 [INFO] process exit, pid: 414568, parent_pid: 414542
-12:23:09 [INFO] process exit, pid: 414569, parent_pid: 414542
-12:23:09 [INFO] process exec, pid: 414570, comm: cat, uid: 1000, euid: 1000, suid: 1000
-12:23:09 [INFO] process exit, pid: 414570, parent_pid: 414542
-12:23:09 [INFO] process exit, pid: 414571, parent_pid: 414542
-12:23:09 [INFO] process exec, pid: 414572, comm: cat, uid: 1000, euid: 1000, suid: 1000
-12:23:09 [INFO] process exit, pid: 414572, parent_pid: 414542
-12:23:09 [INFO] process exit, pid: 414573, parent_pid: 414542
-12:23:09 [INFO] process exit, pid: 414542, parent_pid: 414541
-12:23:09 [INFO] process exit, pid: 414541, parent_pid: 347489
-12:23:09 [INFO] Successfully removed pid: 414550 from ZOMBIE_PROCESSES
-12:23:09 [INFO] Freeing process, pid: 414550
-12:23:09 [INFO] Successfully removed pid: 414561 from ZOMBIE_PROCESSES
-12:23:09 [INFO] Freeing process, pid: 414561
-12:23:09 [INFO] Successfully removed pid: 414562 from ZOMBIE_PROCESSES
-12:23:09 [INFO] Freeing process, pid: 414562
-12:23:09 [INFO] Successfully removed pid: 414563 from ZOMBIE_PROCESSES
-12:23:09 [INFO] Freeing process, pid: 414563
-12:23:09 [INFO] Successfully removed pid: 414564 from ZOMBIE_PROCESSES
-12:23:09 [INFO] Freeing process, pid: 414564
-12:23:09 [INFO] Successfully removed pid: 414565 from ZOMBIE_PROCESSES
-12:23:09 [INFO] Freeing process, pid: 414565
-12:23:09 [INFO] Successfully removed pid: 414567 from ZOMBIE_PROCESSES
-12:23:09 [INFO] Freeing process, pid: 414567
-12:23:09 [INFO] Successfully removed pid: 414566 from ZOMBIE_PROCESSES
-12:23:09 [INFO] Freeing process, pid: 414566
-12:23:09 [INFO] Successfully removed pid: 414569 from ZOMBIE_PROCESSES
-12:23:09 [INFO] Freeing process, pid: 414569
-12:23:09 [INFO] Successfully removed pid: 414570 from ZOMBIE_PROCESSES
-12:23:09 [INFO] Freeing process, pid: 414570
-12:23:09 [INFO] Successfully removed pid: 414571 from ZOMBIE_PROCESSES
-12:23:09 [INFO] Freeing process, pid: 414571
-12:23:09 [INFO] Successfully removed pid: 414572 from ZOMBIE_PROCESSES
-12:23:09 [INFO] Freeing process, pid: 414572
-12:23:09 [INFO] Successfully removed pid: 414573 from ZOMBIE_PROCESSES
-12:23:09 [INFO] Freeing process, pid: 414573
-12:23:09 [INFO] Successfully removed pid: 414568 from ZOMBIE_PROCESSES
-12:23:09 [INFO] Freeing process, pid: 414568
-12:23:09 [INFO] Successfully removed pid: 414542 from ZOMBIE_PROCESSES
-12:23:09 [INFO] Freeing process, pid: 414542
-12:23:09 [INFO] Successfully removed pid: 414541 from ZOMBIE_PROCESSES
-12:23:09 [INFO] Freeing process, pid: 414541
-12:23:09 [INFO] process exit, pid: 414560, parent_pid: 414556
-12:23:09 [INFO] process exec, pid: 414574, comm: sed, uid: 1000, euid: 1000, suid: 1000
-12:23:09 [INFO] process exit, pid: 414574, parent_pid: 414556
-12:23:09 [INFO] process exec, pid: 414575, comm: cat, uid: 1000, euid: 1000, suid: 1000
-12:23:09 [INFO] process exit, pid: 414575, parent_pid: 414556
-12:23:09 [INFO] process exit, pid: 414576, parent_pid: 414556
-12:23:09 [INFO] process exec, pid: 414577, comm: cat, uid: 1000, euid: 1000, suid: 1000
-12:23:09 [INFO] process exit, pid: 414577, parent_pid: 414556
-12:23:09 [INFO] process exit, pid: 414578, parent_pid: 414556
-12:23:09 [INFO] process exit, pid: 414556, parent_pid: 414555
-12:23:09 [INFO] process exit, pid: 414555, parent_pid: 347489
-12:23:09 [INFO] Successfully removed pid: 414575 from ZOMBIE_PROCESSES
-12:23:09 [INFO] Freeing process, pid: 414575
-12:23:09 [INFO] Successfully removed pid: 414556 from ZOMBIE_PROCESSES
-12:23:09 [INFO] Freeing process, pid: 414556
-12:23:09 [INFO] Successfully removed pid: 414576 from ZOMBIE_PROCESSES
-12:23:09 [INFO] Freeing process, pid: 414576
-12:23:09 [INFO] Successfully removed pid: 414560 from ZOMBIE_PROCESSES
-12:23:09 [INFO] Freeing process, pid: 414560
-12:23:09 [INFO] Successfully removed pid: 414574 from ZOMBIE_PROCESSES
-12:23:09 [INFO] Freeing process, pid: 414574
-12:23:09 [INFO] Successfully removed pid: 414578 from ZOMBIE_PROCESSES
-12:23:09 [INFO] Freeing process, pid: 414578
-12:23:09 [INFO] Successfully removed pid: 414577 from ZOMBIE_PROCESSES
-12:23:09 [INFO] Freeing process, pid: 414577
-12:23:09 [INFO] Successfully removed pid: 414555 from ZOMBIE_PROCESSES
-12:23:09 [INFO] Freeing process, pid: 414555
-12:23:10 [INFO] process exit, pid: 414517, parent_pid: 414449
-12:23:10 [INFO] process exit, pid: 414449, parent_pid: 1
-12:23:10 [INFO] Successfully removed pid: 414449 from ZOMBIE_PROCESSES
-12:23:10 [INFO] Freeing process, pid: 414449
-12:23:10 [INFO] Successfully removed pid: 414517 from ZOMBIE_PROCESSES
-12:23:10 [INFO] Freeing process, pid: 414517
-12:23:10 [INFO] process exit, pid: 414532, parent_pid: 414443
-12:23:10 [INFO] process exit, pid: 414579, parent_pid: 414443
-12:23:10 [INFO] Successfully removed pid: 414579 from ZOMBIE_PROCESSES
-12:23:10 [INFO] Freeing process, pid: 414579
-12:23:10 [INFO] Successfully removed pid: 414532 from ZOMBIE_PROCESSES
-12:23:10 [INFO] Freeing process, pid: 414532
-12:23:11 [INFO] process exec, pid: 414580, comm: sh, uid: 1000, euid: 1000, suid: 1000
-12:23:11 [INFO] process exec, pid: 414581, comm: which, uid: 1000, euid: 1000, suid: 1000
-12:23:11 [INFO] process exit, pid: 414581, parent_pid: 414580
-12:23:11 [INFO] process exit, pid: 414580, parent_pid: 347489
-12:23:11 [INFO] process exec, pid: 414582, comm: sh, uid: 1000, euid: 1000, suid: 1000
-12:23:11 [INFO] process exec, pid: 414583, comm: ps, uid: 1000, euid: 1000, suid: 1000
-12:23:11 [INFO] process exit, pid: 414583, parent_pid: 414582
-12:23:11 [INFO] process exit, pid: 414582, parent_pid: 347489
-12:23:11 [INFO] process exec, pid: 414584, comm: sh, uid: 1000, euid: 1000, suid: 1000
-12:23:11 [INFO] process exec, pid: 414585, comm: cpuUsage.sh, uid: 1000, euid: 1000, suid: 1000
-12:23:11 [INFO] process exec, pid: 414586, comm: sed, uid: 1000, euid: 1000, suid: 1000
-12:23:11 [INFO] process exit, pid: 414586, parent_pid: 414585
-12:23:11 [INFO] process exec, pid: 414587, comm: cat, uid: 1000, euid: 1000, suid: 1000
-12:23:11 [INFO] process exit, pid: 414587, parent_pid: 414585
-12:23:11 [INFO] process exec, pid: 414588, comm: sleep, uid: 1000, euid: 1000, suid: 1000
-12:23:11 [INFO] Successfully removed pid: 414580 from ZOMBIE_PROCESSES
-12:23:11 [INFO] Freeing process, pid: 414580
-12:23:11 [INFO] Successfully removed pid: 414581 from ZOMBIE_PROCESSES
-12:23:11 [INFO] Freeing process, pid: 414581
-12:23:11 [INFO] Successfully removed pid: 414583 from ZOMBIE_PROCESSES
-12:23:11 [INFO] Freeing process, pid: 414583
-12:23:11 [INFO] Successfully removed pid: 414582 from ZOMBIE_PROCESSES
-12:23:11 [INFO] Freeing process, pid: 414582
-12:23:11 [INFO] Successfully removed pid: 414587 from ZOMBIE_PROCESSES
-12:23:11 [INFO] Freeing process, pid: 414587
-12:23:11 [INFO] Successfully removed pid: 414586 from ZOMBIE_PROCESSES
-12:23:11 [INFO] Freeing process, pid: 414586
-12:23:12 [INFO] process exit, pid: 414588, parent_pid: 414585
-12:23:12 [INFO] process exec, pid: 414589, comm: sed, uid: 1000, euid: 1000, suid: 1000
-12:23:12 [INFO] process exit, pid: 414589, parent_pid: 414585
-12:23:12 [INFO] process exec, pid: 414590, comm: cat, uid: 1000, euid: 1000, suid: 1000
-12:23:12 [INFO] process exit, pid: 414590, parent_pid: 414585
-12:23:12 [INFO] process exit, pid: 414591, parent_pid: 414585
-12:23:12 [INFO] process exit, pid: 414585, parent_pid: 414584
-12:23:12 [INFO] process exit, pid: 414584, parent_pid: 347489
-12:23:12 [INFO] Successfully removed pid: 414588 from ZOMBIE_PROCESSES
-12:23:12 [INFO] Freeing process, pid: 414588
-12:23:12 [INFO] Successfully removed pid: 414589 from ZOMBIE_PROCESSES
-12:23:12 [INFO] Freeing process, pid: 414589
-12:23:12 [INFO] Successfully removed pid: 414590 from ZOMBIE_PROCESSES
-12:23:12 [INFO] Freeing process, pid: 414590
-12:23:12 [INFO] Successfully removed pid: 414591 from ZOMBIE_PROCESSES
-12:23:12 [INFO] Freeing process, pid: 414591
-12:23:12 [INFO] Successfully removed pid: 414584 from ZOMBIE_PROCESSES
-12:23:12 [INFO] Successfully removed pid: 414585 from ZOMBIE_PROCESSES
-12:23:12 [INFO] Freeing process, pid: 414585
-12:23:12 [INFO] Freeing process, pid: 414584
-12:23:13 [INFO] process exec, pid: 414593, comm: git, uid: 1000, euid: 1000, suid: 1000
-12:23:13 [INFO] process exit, pid: 414593, parent_pid: 400748
-12:23:13 [INFO] process exec, pid: 414594, comm: git, uid: 1000, euid: 1000, suid: 1000
-12:23:13 [INFO] process exit, pid: 414594, parent_pid: 400748
-12:23:13 [INFO] process exec, pid: 414595, comm: git, uid: 1000, euid: 1000, suid: 1000
-12:23:13 [INFO] process exit, pid: 414595, parent_pid: 400748
-12:23:13 [INFO] Successfully removed pid: 414593 from ZOMBIE_PROCESSES
-12:23:13 [INFO] Freeing process, pid: 414593
-12:23:13 [INFO] process exec, pid: 414596, comm: git, uid: 1000, euid: 1000, suid: 1000
-12:23:13 [INFO] process exit, pid: 414596, parent_pid: 400748
-12:23:13 [INFO] Successfully removed pid: 414594 from ZOMBIE_PROCESSES
-12:23:13 [INFO] Freeing process, pid: 414594
-12:23:14 [INFO] Successfully removed pid: 414595 from ZOMBIE_PROCESSES
-12:23:14 [INFO] Freeing process, pid: 414595
-12:23:14 [INFO] Successfully removed pid: 414596 from ZOMBIE_PROCESSES
-12:23:14 [INFO] Freeing process, pid: 414596
-12:23:16 [INFO] process exec, pid: 414597, comm: sh, uid: 1000, euid: 1000, suid: 1000
-12:23:16 [INFO] process exec, pid: 414598, comm: which, uid: 1000, euid: 1000, suid: 1000
-12:23:16 [INFO] process exit, pid: 414598, parent_pid: 414597
-12:23:16 [INFO] process exit, pid: 414597, parent_pid: 347489
-12:23:16 [INFO] process exec, pid: 414599, comm: sh, uid: 1000, euid: 1000, suid: 1000
-12:23:16 [INFO] process exec, pid: 414600, comm: ps, uid: 1000, euid: 1000, suid: 1000
-12:23:16 [INFO] process exit, pid: 414600, parent_pid: 414599
-12:23:16 [INFO] process exit, pid: 414599, parent_pid: 347489
-12:23:16 [INFO] process exec, pid: 414601, comm: sh, uid: 1000, euid: 1000, suid: 1000
-12:23:16 [INFO] process exec, pid: 414602, comm: cpuUsage.sh, uid: 1000, euid: 1000, suid: 1000
-12:23:16 [INFO] process exec, pid: 414603, comm: sed, uid: 1000, euid: 1000, suid: 1000
-12:23:16 [INFO] process exit, pid: 414603, parent_pid: 414602
-12:23:16 [INFO] process exec, pid: 414604, comm: cat, uid: 1000, euid: 1000, suid: 1000
-12:23:16 [INFO] process exit, pid: 414604, parent_pid: 414602
-12:23:16 [INFO] process exec, pid: 414605, comm: sleep, uid: 1000, euid: 1000, suid: 1000
-12:23:16 [INFO] Successfully removed pid: 414597 from ZOMBIE_PROCESSES
-12:23:16 [INFO] Freeing process, pid: 414597
-12:23:16 [INFO] Successfully removed pid: 414598 from ZOMBIE_PROCESSES
-12:23:16 [INFO] Freeing process, pid: 414598
-12:23:16 [INFO] Successfully removed pid: 414600 from ZOMBIE_PROCESSES
-12:23:16 [INFO] Freeing process, pid: 414600
-12:23:16 [INFO] Successfully removed pid: 414603 from ZOMBIE_PROCESSES
-12:23:16 [INFO] Freeing process, pid: 414603
-12:23:16 [INFO] Successfully removed pid: 414604 from ZOMBIE_PROCESSES
-12:23:16 [INFO] Freeing process, pid: 414604
-12:23:16 [INFO] Successfully removed pid: 414599 from ZOMBIE_PROCESSES
-12:23:16 [INFO] Freeing process, pid: 414599
-12:23:17 [INFO] process exit, pid: 414605, parent_pid: 414602
-12:23:17 [INFO] process exec, pid: 414607, comm: sed, uid: 1000, euid: 1000, suid: 1000
-12:23:17 [INFO] process exit, pid: 414607, parent_pid: 414602
-12:23:17 [INFO] process exec, pid: 414608, comm: cat, uid: 1000, euid: 1000, suid: 1000
-12:23:17 [INFO] process exit, pid: 414608, parent_pid: 414602
-12:23:17 [INFO] process exit, pid: 414609, parent_pid: 414602
-12:23:17 [INFO] process exit, pid: 414602, parent_pid: 414601
-12:23:17 [INFO] process exit, pid: 414601, parent_pid: 347489
-12:23:17 [INFO] Successfully removed pid: 414608 from ZOMBIE_PROCESSES
-12:23:17 [INFO] Freeing process, pid: 414608
-12:23:17 [INFO] Successfully removed pid: 414602 from ZOMBIE_PROCESSES
-12:23:17 [INFO] Freeing process, pid: 414602
-12:23:17 [INFO] Successfully removed pid: 414605 from ZOMBIE_PROCESSES
-12:23:17 [INFO] Freeing process, pid: 414605
-12:23:17 [INFO] Successfully removed pid: 414607 from ZOMBIE_PROCESSES
-12:23:17 [INFO] Freeing process, pid: 414607
-12:23:17 [INFO] Successfully removed pid: 414609 from ZOMBIE_PROCESSES
-12:23:17 [INFO] Freeing process, pid: 414609
-12:23:17 [INFO] Successfully removed pid: 414601 from ZOMBIE_PROCESSES
-12:23:17 [INFO] Freeing process, pid: 414601
-12:23:18 [INFO] process exit, pid: 414610, parent_pid: 414443
-12:23:18 [INFO] process exit, pid: 414611, parent_pid: 414443
-12:23:18 [INFO] process exit, pid: 414612, parent_pid: 414443
-12:23:18 [INFO] process exit, pid: 414613, parent_pid: 414443
-12:23:18 [INFO] Successfully removed pid: 414610 from ZOMBIE_PROCESSES
-12:23:18 [INFO] Freeing process, pid: 414610
-12:23:18 [INFO] Successfully removed pid: 414611 from ZOMBIE_PROCESSES
-12:23:18 [INFO] Freeing process, pid: 414611
-12:23:18 [INFO] Successfully removed pid: 414612 from ZOMBIE_PROCESSES
-12:23:18 [INFO] Freeing process, pid: 414612
-12:23:18 [INFO] Successfully removed pid: 414613 from ZOMBIE_PROCESSES
-12:23:18 [INFO] Freeing process, pid: 414613
-12:23:19 [INFO] process exec, pid: 414614, comm: git, uid: 1000, euid: 1000, suid: 1000
-12:23:19 [INFO] process exit, pid: 414614, parent_pid: 400748
-12:23:19 [INFO] process exec, pid: 414615, comm: git, uid: 1000, euid: 1000, suid: 1000
-12:23:19 [INFO] process exit, pid: 414615, parent_pid: 400748
-12:23:19 [INFO] process exec, pid: 414616, comm: git, uid: 1000, euid: 1000, suid: 1000
-12:23:19 [INFO] process exit, pid: 414616, parent_pid: 400748
-12:23:19 [INFO] Successfully removed pid: 414614 from ZOMBIE_PROCESSES
-12:23:19 [INFO] Freeing process, pid: 414614
-12:23:19 [INFO] process exec, pid: 414617, comm: git, uid: 1000, euid: 1000, suid: 1000
-12:23:19 [INFO] process exit, pid: 414617, parent_pid: 400748
-12:23:19 [INFO] Successfully removed pid: 414615 from ZOMBIE_PROCESSES
-12:23:19 [INFO] Freeing process, pid: 414615
-12:23:19 [INFO] Successfully removed pid: 414616 from ZOMBIE_PROCESSES
-12:23:19 [INFO] Freeing process, pid: 414616
-12:23:19 [INFO] Successfully removed pid: 414617 from ZOMBIE_PROCESSES
-12:23:19 [INFO] Freeing process, pid: 414617
-12:23:19 [INFO] process exec, pid: 414618, comm: sh, uid: 1000, euid: 1000, suid: 1000
-12:23:19 [INFO] process exec, pid: 414619, comm: which, uid: 1000, euid: 1000, suid: 1000
-12:23:19 [INFO] process exit, pid: 414619, parent_pid: 414618
-12:23:19 [INFO] process exit, pid: 414618, parent_pid: 347489
-12:23:19 [INFO] process exec, pid: 414620, comm: sh, uid: 1000, euid: 1000, suid: 1000
-12:23:19 [INFO] process exec, pid: 414621, comm: ps, uid: 1000, euid: 1000, suid: 1000
-12:23:19 [INFO] process exit, pid: 414621, parent_pid: 414620
-12:23:19 [INFO] process exit, pid: 414620, parent_pid: 347489
-12:23:19 [INFO] process exec, pid: 414622, comm: sh, uid: 1000, euid: 1000, suid: 1000
-12:23:19 [INFO] process exec, pid: 414623, comm: cpuUsage.sh, uid: 1000, euid: 1000, suid: 1000
-12:23:19 [INFO] process exec, pid: 414624, comm: sed, uid: 1000, euid: 1000, suid: 1000
-12:23:19 [INFO] Successfully removed pid: 414619 from ZOMBIE_PROCESSES
-12:23:19 [INFO] Freeing process, pid: 414619
-12:23:19 [INFO] process exit, pid: 414624, parent_pid: 414623
-12:23:19 [INFO] process exec, pid: 414625, comm: cat, uid: 1000, euid: 1000, suid: 1000
-12:23:19 [INFO] process exit, pid: 414625, parent_pid: 414623
-12:23:19 [INFO] process exec, pid: 414626, comm: sleep, uid: 1000, euid: 1000, suid: 1000
-12:23:19 [INFO] Successfully removed pid: 414618 from ZOMBIE_PROCESSES
-12:23:19 [INFO] Freeing process, pid: 414618
-12:23:19 [INFO] Successfully removed pid: 414624 from ZOMBIE_PROCESSES
-12:23:19 [INFO] Freeing process, pid: 414624
-12:23:19 [INFO] Successfully removed pid: 414621 from ZOMBIE_PROCESSES
-12:23:19 [INFO] Freeing process, pid: 414621
-12:23:19 [INFO] Successfully removed pid: 414620 from ZOMBIE_PROCESSES
-12:23:19 [INFO] Freeing process, pid: 414620
-12:23:19 [INFO] Successfully removed pid: 414625 from ZOMBIE_PROCESSES
-12:23:19 [INFO] Freeing process, pid: 414625
-12:23:19 [INFO] process exec, pid: 414627, comm: mount, uid: 1000, euid: 0, suid: 0
-12:23:19 [INFO] root process detect pid: 414627,  comm: mount
-12:23:19 [INFO] process exit, pid: 414627, parent_pid: 414443
-12:23:19 [INFO] process exit, pid: 414628, parent_pid: 414443
-12:23:19 [INFO] Successfully removed pid: 414628 from ZOMBIE_PROCESSES
-12:23:19 [INFO] Freeing process, pid: 414628
-12:23:19 [INFO] Successfully removed pid: 414627 from ZOMBIE_PROCESSES
-12:23:19 [INFO] Freeing process, pid: 414627
-12:23:19 [INFO] root process detect : pid: 414627, comm: "mount"
-12:23:20 [INFO] process exit, pid: 414626, parent_pid: 414623
-12:23:20 [INFO] process exec, pid: 414629, comm: sed, uid: 1000, euid: 1000, suid: 1000
-12:23:20 [INFO] process exit, pid: 414629, parent_pid: 414623
-12:23:20 [INFO] process exec, pid: 414630, comm: cat, uid: 1000, euid: 1000, suid: 1000
-12:23:20 [INFO] process exit, pid: 414630, parent_pid: 414623
-12:23:20 [INFO] process exit, pid: 414631, parent_pid: 414623
-12:23:20 [INFO] process exit, pid: 414623, parent_pid: 414622
-12:23:20 [INFO] process exit, pid: 414622, parent_pid: 347489
-12:23:20 [INFO] Successfully removed pid: 414622 from ZOMBIE_PROCESSES
-12:23:20 [INFO] Freeing process, pid: 414622
-12:23:20 [INFO] Successfully removed pid: 414623 from ZOMBIE_PROCESSES
-12:23:20 [INFO] Successfully removed pid: 414626 from ZOMBIE_PROCESSES
-12:23:20 [INFO] Freeing process, pid: 414626
-12:23:20 [INFO] Successfully removed pid: 414629 from ZOMBIE_PROCESSES
-12:23:20 [INFO] Freeing process, pid: 414629
-12:23:20 [INFO] Successfully removed pid: 414630 from ZOMBIE_PROCESSES
-12:23:20 [INFO] Freeing process, pid: 414630
-12:23:20 [INFO] Freeing process, pid: 414623
-12:23:20 [INFO] Successfully removed pid: 414631 from ZOMBIE_PROCESSES
-12:23:20 [INFO] Freeing process, pid: 414631
-12:23:20 [INFO] process exec, pid: 414632, comm: git, uid: 1000, euid: 1000, suid: 1000
-12:23:20 [INFO] process exit, pid: 414632, parent_pid: 364343
-12:23:20 [INFO] process exec, pid: 414633, comm: git, uid: 1000, euid: 1000, suid: 1000
-12:23:20 [INFO] process exec, pid: 414634, comm: git, uid: 1000, euid: 1000, suid: 1000
-12:23:20 [INFO] process exit, pid: 414634, parent_pid: 414633
-12:23:20 [INFO] Successfully removed pid: 414632 from ZOMBIE_PROCESSES
-12:23:20 [INFO] Freeing process, pid: 414632
-12:23:20 [INFO] process exit, pid: 414633, parent_pid: 364343
-12:23:20 [INFO] Successfully removed pid: 414634 from ZOMBIE_PROCESSES
-12:23:20 [INFO] Freeing process, pid: 414634
-12:23:20 [INFO] Successfully removed pid: 414633 from ZOMBIE_PROCESSES
-12:23:20 [INFO] Freeing process, pid: 414633
-12:23:21 [INFO] process exec, pid: 414635, comm: sh, uid: 1000, euid: 1000, suid: 1000
-12:23:21 [INFO] process exec, pid: 414636, comm: which, uid: 1000, euid: 1000, suid: 1000
-12:23:21 [INFO] process exit, pid: 414636, parent_pid: 414635
-12:23:21 [INFO] process exit, pid: 414635, parent_pid: 347489
-12:23:21 [INFO] process exec, pid: 414637, comm: sh, uid: 1000, euid: 1000, suid: 1000
-12:23:21 [INFO] process exec, pid: 414638, comm: ps, uid: 1000, euid: 1000, suid: 1000
-12:23:21 [INFO] process exit, pid: 414638, parent_pid: 414637
-12:23:21 [INFO] process exit, pid: 414637, parent_pid: 347489
-12:23:21 [INFO] process exec, pid: 414639, comm: sh, uid: 1000, euid: 1000, suid: 1000
-12:23:21 [INFO] process exec, pid: 414640, comm: cpuUsage.sh, uid: 1000, euid: 1000, suid: 1000
-12:23:21 [INFO] process exec, pid: 414641, comm: sed, uid: 1000, euid: 1000, suid: 1000
-12:23:21 [INFO] process exit, pid: 414641, parent_pid: 414640
-12:23:21 [INFO] process exec, pid: 414642, comm: cat, uid: 1000, euid: 1000, suid: 1000
-12:23:21 [INFO] process exit, pid: 414642, parent_pid: 414640
-12:23:21 [INFO] process exec, pid: 414643, comm: sleep, uid: 1000, euid: 1000, suid: 1000
-12:23:21 [INFO] Successfully removed pid: 414638 from ZOMBIE_PROCESSES
-12:23:21 [INFO] Successfully removed pid: 414636 from ZOMBIE_PROCESSES
-12:23:21 [INFO] Freeing process, pid: 414636
-12:23:21 [INFO] Freeing process, pid: 414638
-12:23:21 [INFO] Successfully removed pid: 414641 from ZOMBIE_PROCESSES
-12:23:21 [INFO] Freeing process, pid: 414641
-12:23:21 [INFO] Successfully removed pid: 414635 from ZOMBIE_PROCESSES
-12:23:21 [INFO] Freeing process, pid: 414635
-12:23:21 [INFO] Successfully removed pid: 414637 from ZOMBIE_PROCESSES
-12:23:21 [INFO] Freeing process, pid: 414637
-12:23:21 [INFO] Successfully removed pid: 414642 from ZOMBIE_PROCESSES
-12:23:21 [INFO] Freeing process, pid: 414642
-12:23:22 [INFO] process exit, pid: 414643, parent_pid: 414640
-12:23:22 [INFO] process exec, pid: 414644, comm: sed, uid: 1000, euid: 1000, suid: 1000
-12:23:22 [INFO] process exit, pid: 414644, parent_pid: 414640
-12:23:22 [INFO] process exec, pid: 414645, comm: cat, uid: 1000, euid: 1000, suid: 1000
-12:23:22 [INFO] process exit, pid: 414645, parent_pid: 414640
-12:23:22 [INFO] process exit, pid: 414646, parent_pid: 414640
-12:23:22 [INFO] process exit, pid: 414640, parent_pid: 414639
-12:23:22 [INFO] process exit, pid: 414639, parent_pid: 347489
-12:23:22 [INFO] Successfully removed pid: 414643 from ZOMBIE_PROCESSES
-12:23:22 [INFO] Freeing process, pid: 414643
-12:23:22 [INFO] Successfully removed pid: 414644 from ZOMBIE_PROCESSES
-12:23:22 [INFO] Freeing process, pid: 414644
-12:23:22 [INFO] Successfully removed pid: 414645 from ZOMBIE_PROCESSES
-12:23:22 [INFO] Freeing process, pid: 414645
-12:23:22 [INFO] Successfully removed pid: 414639 from ZOMBIE_PROCESSES
-12:23:22 [INFO] Freeing process, pid: 414639
-12:23:22 [INFO] Successfully removed pid: 414646 from ZOMBIE_PROCESSES
-12:23:22 [INFO] Freeing process, pid: 414646
-12:23:22 [INFO] Successfully removed pid: 414640 from ZOMBIE_PROCESSES
-12:23:22 [INFO] Freeing process, pid: 414640
-12:23:24 [INFO] process exec, pid: 414647, comm: git, uid: 1000, euid: 1000, suid: 1000
-12:23:24 [INFO] process exit, pid: 414647, parent_pid: 400748
-12:23:24 [INFO] process exec, pid: 414648, comm: git, uid: 1000, euid: 1000, suid: 1000
-12:23:24 [INFO] process exit, pid: 414648, parent_pid: 400748
-12:23:24 [INFO] process exec, pid: 414649, comm: git, uid: 1000, euid: 1000, suid: 1000
-12:23:24 [INFO] process exit, pid: 414649, parent_pid: 400748
-12:23:24 [INFO] Successfully removed pid: 414647 from ZOMBIE_PROCESSES
-12:23:24 [INFO] Freeing process, pid: 414647
-12:23:24 [INFO] Successfully removed pid: 414648 from ZOMBIE_PROCESSES
-12:23:24 [INFO] Freeing process, pid: 414648
-12:23:24 [INFO] process exec, pid: 414650, comm: git, uid: 1000, euid: 1000, suid: 1000
-12:23:24 [INFO] process exit, pid: 414650, parent_pid: 400748
-12:23:24 [INFO] Successfully removed pid: 414649 from ZOMBIE_PROCESSES
-12:23:24 [INFO] Freeing process, pid: 414649
-12:23:24 [INFO] Successfully removed pid: 414650 from ZOMBIE_PROCESSES
-12:23:24 [INFO] Freeing process, pid: 414650
-12:23:29 [INFO] process exec, pid: 414651, comm: git, uid: 1000, euid: 1000, suid: 1000
-12:23:29 [INFO] process exit, pid: 414651, parent_pid: 400748
-12:23:29 [INFO] process exec, pid: 414652, comm: git, uid: 1000, euid: 1000, suid: 1000
-12:23:29 [INFO] process exit, pid: 414652, parent_pid: 400748
-12:23:29 [INFO] process exec, pid: 414653, comm: git, uid: 1000, euid: 1000, suid: 1000
-12:23:29 [INFO] process exit, pid: 414653, parent_pid: 400748
-12:23:29 [INFO] process exec, pid: 414654, comm: git, uid: 1000, euid: 1000, suid: 1000
-12:23:29 [INFO] Successfully removed pid: 414651 from ZOMBIE_PROCESSES
-12:23:29 [INFO] Freeing process, pid: 414651
-12:23:29 [INFO] Successfully removed pid: 414652 from ZOMBIE_PROCESSES
-12:23:29 [INFO] Freeing process, pid: 414652
-12:23:29 [INFO] process exit, pid: 414654, parent_pid: 400748
-12:23:29 [INFO] Successfully removed pid: 414653 from ZOMBIE_PROCESSES
-12:23:29 [INFO] Freeing process, pid: 414653
-12:23:29 [INFO] Successfully removed pid: 414654 from ZOMBIE_PROCESSES
-12:23:29 [INFO] Freeing process, pid: 414654
-12:23:34 [INFO] process exec, pid: 414655, comm: git, uid: 1000, euid: 1000, suid: 1000
-12:23:34 [INFO] process exit, pid: 414655, parent_pid: 400748
-12:23:34 [INFO] process exec, pid: 414656, comm: git, uid: 1000, euid: 1000, suid: 1000
-12:23:34 [INFO] process exit, pid: 414656, parent_pid: 400748
-12:23:34 [INFO] process exec, pid: 414657, comm: git, uid: 1000, euid: 1000, suid: 1000
-12:23:34 [INFO] process exit, pid: 414657, parent_pid: 400748
-12:23:34 [INFO] process exec, pid: 414658, comm: git, uid: 1000, euid: 1000, suid: 1000
-12:23:34 [INFO] process exit, pid: 414658, parent_pid: 400748
-12:23:34 [INFO] Successfully removed pid: 414655 from ZOMBIE_PROCESSES
-12:23:34 [INFO] Freeing process, pid: 414655
-12:23:34 [INFO] Successfully removed pid: 414656 from ZOMBIE_PROCESSES
-12:23:34 [INFO] Freeing process, pid: 414656
-12:23:34 [INFO] Successfully removed pid: 414657 from ZOMBIE_PROCESSES
-12:23:34 [INFO] Freeing process, pid: 414657
-12:23:34 [INFO] Successfully removed pid: 414658 from ZOMBIE_PROCESSES
-12:23:34 [INFO] Freeing process, pid: 414658
-12:23:39 [INFO] process exit, pid: 414659, parent_pid: 414443
-12:23:39 [INFO] process exec, pid: 414660, comm: git, uid: 1000, euid: 1000, suid: 1000
-12:23:39 [INFO] process exit, pid: 414660, parent_pid: 400748
-12:23:39 [INFO] process exec, pid: 414661, comm: git, uid: 1000, euid: 1000, suid: 1000
-12:23:39 [INFO] process exit, pid: 414661, parent_pid: 400748
-12:23:39 [INFO] Successfully removed pid: 414659 from ZOMBIE_PROCESSES
-12:23:39 [INFO] Freeing process, pid: 414659
-12:23:39 [INFO] process exec, pid: 414662, comm: git, uid: 1000, euid: 1000, suid: 1000
-12:23:39 [INFO] process exit, pid: 414662, parent_pid: 400748
-12:23:39 [INFO] process exec, pid: 414663, comm: git, uid: 1000, euid: 1000, suid: 1000
-12:23:39 [INFO] process exit, pid: 414663, parent_pid: 400748
-12:23:39 [INFO] Successfully removed pid: 414660 from ZOMBIE_PROCESSES
-12:23:39 [INFO] Freeing process, pid: 414660
-12:23:39 [INFO] Successfully removed pid: 414661 from ZOMBIE_PROCESSES
-12:23:39 [INFO] Freeing process, pid: 414661
-12:23:39 [INFO] Successfully removed pid: 414662 from ZOMBIE_PROCESSES
-12:23:39 [INFO] Freeing process, pid: 414662
-12:23:39 [INFO] Successfully removed pid: 414663 from ZOMBIE_PROCESSES
-12:23:39 [INFO] Freeing process, pid: 414663
-12:23:39 [INFO] process exit, pid: 414664, parent_pid: 414443
-12:23:39 [INFO] Successfully removed pid: 414664 from ZOMBIE_PROCESSES
-12:23:39 [INFO] Freeing process, pid: 414664
-12:23:39 [INFO] process exit, pid: 414665, parent_pid: 414443
-12:23:39 [INFO] Successfully removed pid: 414665 from ZOMBIE_PROCESSES
-12:23:39 [INFO] Freeing process, pid: 414665
-12:23:40 [INFO] process exec, pid: 414666, comm: sh, uid: 1000, euid: 1000, suid: 1000
-12:23:40 [INFO] process exec, pid: 414667, comm: which, uid: 1000, euid: 1000, suid: 1000
-12:23:40 [INFO] process exit, pid: 414667, parent_pid: 414666
-12:23:40 [INFO] process exit, pid: 414666, parent_pid: 347489
-12:23:40 [INFO] process exec, pid: 414668, comm: sh, uid: 1000, euid: 1000, suid: 1000
-12:23:40 [INFO] process exec, pid: 414669, comm: ps, uid: 1000, euid: 1000, suid: 1000
-12:23:40 [INFO] process exit, pid: 414669, parent_pid: 414668
-12:23:40 [INFO] process exit, pid: 414668, parent_pid: 347489
-12:23:40 [INFO] process exec, pid: 414670, comm: sh, uid: 1000, euid: 1000, suid: 1000
-12:23:40 [INFO] process exec, pid: 414671, comm: cpuUsage.sh, uid: 1000, euid: 1000, suid: 1000
-12:23:40 [INFO] process exec, pid: 414672, comm: sed, uid: 1000, euid: 1000, suid: 1000
-12:23:40 [INFO] Successfully removed pid: 414667 from ZOMBIE_PROCESSES
-12:23:40 [INFO] Freeing process, pid: 414667
-12:23:40 [INFO] process exit, pid: 414672, parent_pid: 414671
-12:23:40 [INFO] process exec, pid: 414673, comm: cat, uid: 1000, euid: 1000, suid: 1000
-12:23:40 [INFO] process exit, pid: 414673, parent_pid: 414671
-12:23:40 [INFO] process exec, pid: 414674, comm: sleep, uid: 1000, euid: 1000, suid: 1000
-12:23:40 [INFO] Successfully removed pid: 414666 from ZOMBIE_PROCESSES
-12:23:40 [INFO] Freeing process, pid: 414666
-12:23:40 [INFO] Successfully removed pid: 414668 from ZOMBIE_PROCESSES
-12:23:40 [INFO] Freeing process, pid: 414668
-12:23:40 [INFO] Successfully removed pid: 414669 from ZOMBIE_PROCESSES
-12:23:40 [INFO] Freeing process, pid: 414669
-12:23:40 [INFO] Successfully removed pid: 414672 from ZOMBIE_PROCESSES
-12:23:40 [INFO] Freeing process, pid: 414672
-12:23:40 [INFO] Successfully removed pid: 414673 from ZOMBIE_PROCESSES
-12:23:40 [INFO] Freeing process, pid: 414673
-12:23:41 [INFO] process exit, pid: 414674, parent_pid: 414671
-12:23:41 [INFO] process exec, pid: 414675, comm: sed, uid: 1000, euid: 1000, suid: 1000
-12:23:41 [INFO] process exit, pid: 414675, parent_pid: 414671
-12:23:41 [INFO] process exec, pid: 414676, comm: cat, uid: 1000, euid: 1000, suid: 1000
-12:23:41 [INFO] process exit, pid: 414676, parent_pid: 414671
-12:23:41 [INFO] process exit, pid: 414677, parent_pid: 414671
-12:23:41 [INFO] process exit, pid: 414671, parent_pid: 414670
-12:23:41 [INFO] process exit, pid: 414670, parent_pid: 347489
-12:23:41 [INFO] Successfully removed pid: 414671 from ZOMBIE_PROCESSES
-12:23:41 [INFO] Freeing process, pid: 414671
-12:23:41 [INFO] Successfully removed pid: 414670 from ZOMBIE_PROCESSES
-12:23:41 [INFO] Freeing process, pid: 414670
-12:23:41 [INFO] Successfully removed pid: 414674 from ZOMBIE_PROCESSES
-12:23:41 [INFO] Freeing process, pid: 414674
-12:23:41 [INFO] Successfully removed pid: 414675 from ZOMBIE_PROCESSES
-12:23:41 [INFO] Freeing process, pid: 414675
-12:23:41 [INFO] Successfully removed pid: 414676 from ZOMBIE_PROCESSES
-12:23:41 [INFO] Freeing process, pid: 414676
-12:23:41 [INFO] Successfully removed pid: 414677 from ZOMBIE_PROCESSES
-12:23:41 [INFO] Freeing process, pid: 414677
-12:23:45 [INFO] process exec, pid: 414678, comm: sh, uid: 1000, euid: 1000, suid: 1000
-12:23:45 [INFO] process exec, pid: 414679, comm: which, uid: 1000, euid: 1000, suid: 1000
-12:23:45 [INFO] process exit, pid: 414679, parent_pid: 414678
-12:23:45 [INFO] process exit, pid: 414678, parent_pid: 347489
-12:23:45 [INFO] process exec, pid: 414680, comm: sh, uid: 1000, euid: 1000, suid: 1000
-12:23:45 [INFO] process exec, pid: 414681, comm: ps, uid: 1000, euid: 1000, suid: 1000
-12:23:45 [INFO] Successfully removed pid: 414679 from ZOMBIE_PROCESSES
-12:23:45 [INFO] Freeing process, pid: 414679
-12:23:45 [INFO] process exit, pid: 414681, parent_pid: 414680
-12:23:45 [INFO] process exit, pid: 414680, parent_pid: 347489
-12:23:45 [INFO] process exec, pid: 414682, comm: sh, uid: 1000, euid: 1000, suid: 1000
-12:23:45 [INFO] process exec, pid: 414683, comm: cpuUsage.sh, uid: 1000, euid: 1000, suid: 1000
-12:23:45 [INFO] process exec, pid: 414684, comm: sed, uid: 1000, euid: 1000, suid: 1000
-12:23:45 [INFO] process exit, pid: 414684, parent_pid: 414683
-12:23:45 [INFO] process exec, pid: 414685, comm: cat, uid: 1000, euid: 1000, suid: 1000
-12:23:45 [INFO] process exit, pid: 414685, parent_pid: 414683
-12:23:45 [INFO] process exec, pid: 414686, comm: sleep, uid: 1000, euid: 1000, suid: 1000
-12:23:45 [INFO] Successfully removed pid: 414678 from ZOMBIE_PROCESSES
-12:23:45 [INFO] Freeing process, pid: 414678
-12:23:45 [INFO] Successfully removed pid: 414681 from ZOMBIE_PROCESSES
-12:23:45 [INFO] Freeing process, pid: 414681
-12:23:45 [INFO] Successfully removed pid: 414680 from ZOMBIE_PROCESSES
-12:23:45 [INFO] Freeing process, pid: 414680
-12:23:45 [INFO] Successfully removed pid: 414684 from ZOMBIE_PROCESSES
-12:23:45 [INFO] Freeing process, pid: 414684
-12:23:45 [INFO] Successfully removed pid: 414685 from ZOMBIE_PROCESSES
-12:23:45 [INFO] Freeing process, pid: 414685
-12:23:46 [INFO] process exit, pid: 414686, parent_pid: 414683
-12:23:46 [INFO] process exec, pid: 414687, comm: sed, uid: 1000, euid: 1000, suid: 1000
-12:23:46 [INFO] process exit, pid: 414687, parent_pid: 414683
-12:23:46 [INFO] process exec, pid: 414688, comm: cat, uid: 1000, euid: 1000, suid: 1000
-12:23:46 [INFO] process exit, pid: 414688, parent_pid: 414683
-12:23:46 [INFO] process exit, pid: 414689, parent_pid: 414683
-12:23:46 [INFO] process exit, pid: 414683, parent_pid: 414682
-12:23:46 [INFO] process exit, pid: 414682, parent_pid: 347489
-12:23:46 [INFO] Successfully removed pid: 414688 from ZOMBIE_PROCESSES
-12:23:46 [INFO] Freeing process, pid: 414688
-12:23:46 [INFO] Successfully removed pid: 414682 from ZOMBIE_PROCESSES
-12:23:46 [INFO] Freeing process, pid: 414682
-12:23:46 [INFO] Successfully removed pid: 414683 from ZOMBIE_PROCESSES
-12:23:46 [INFO] Freeing process, pid: 414683
-12:23:46 [INFO] Successfully removed pid: 414686 from ZOMBIE_PROCESSES
-12:23:46 [INFO] Freeing process, pid: 414686
-12:23:46 [INFO] Successfully removed pid: 414687 from ZOMBIE_PROCESSES
-12:23:46 [INFO] Freeing process, pid: 414687
-12:23:46 [INFO] Successfully removed pid: 414689 from ZOMBIE_PROCESSES
-12:23:46 [INFO] Freeing process, pid: 414689
-12:23:59 [INFO] process exec, pid: 414690, comm: git, uid: 1000, euid: 1000, suid: 1000
-12:23:59 [INFO] process exit, pid: 414691, parent_pid: 400748
-12:23:59 [INFO] process exit, pid: 414692, parent_pid: 400748
-12:23:59 [INFO] process exit, pid: 414690, parent_pid: 400748
-12:23:59 [INFO] Successfully removed pid: 414691 from ZOMBIE_PROCESSES
-12:23:59 [INFO] Freeing process, pid: 414691
-12:23:59 [INFO] process exec, pid: 414693, comm: git, uid: 1000, euid: 1000, suid: 1000
-12:23:59 [INFO] process exit, pid: 414693, parent_pid: 400748
-12:23:59 [INFO] process exec, pid: 414694, comm: git, uid: 1000, euid: 1000, suid: 1000
-12:23:59 [INFO] Successfully removed pid: 414690 from ZOMBIE_PROCESSES
-12:23:59 [INFO] Freeing process, pid: 414690
-12:23:59 [INFO] Successfully removed pid: 414692 from ZOMBIE_PROCESSES
-12:23:59 [INFO] Freeing process, pid: 414692
-12:23:59 [INFO] process exit, pid: 414694, parent_pid: 400748
-12:23:59 [INFO] process exec, pid: 414695, comm: git, uid: 1000, euid: 1000, suid: 1000
-12:23:59 [INFO] process exit, pid: 414695, parent_pid: 400748
-12:23:59 [INFO] process exec, pid: 414696, comm: git, uid: 1000, euid: 1000, suid: 1000
-12:23:59 [INFO] process exit, pid: 414696, parent_pid: 400748
-12:23:59 [INFO] Successfully removed pid: 414693 from ZOMBIE_PROCESSES
-12:23:59 [INFO] Freeing process, pid: 414693
-12:23:59 [INFO] process exec, pid: 414697, comm: git, uid: 1000, euid: 1000, suid: 1000
-12:23:59 [INFO] process exit, pid: 414697, parent_pid: 400748
-12:23:59 [INFO] Successfully removed pid: 414694 from ZOMBIE_PROCESSES
-12:23:59 [INFO] Freeing process, pid: 414694
-12:23:59 [INFO] process exec, pid: 414698, comm: git, uid: 1000, euid: 1000, suid: 1000
-12:23:59 [INFO] process exit, pid: 414698, parent_pid: 400748
-12:23:59 [INFO] process exec, pid: 414699, comm: git, uid: 1000, euid: 1000, suid: 1000
-12:23:59 [INFO] Successfully removed pid: 414695 from ZOMBIE_PROCESSES
-12:23:59 [INFO] Freeing process, pid: 414695
-12:23:59 [INFO] Successfully removed pid: 414696 from ZOMBIE_PROCESSES
-12:23:59 [INFO] Freeing process, pid: 414696
-12:23:59 [INFO] process exit, pid: 414699, parent_pid: 400748
-12:23:59 [INFO] Successfully removed pid: 414697 from ZOMBIE_PROCESSES
-12:23:59 [INFO] Freeing process, pid: 414697
-12:23:59 [INFO] Successfully removed pid: 414698 from ZOMBIE_PROCESSES
-12:23:59 [INFO] Freeing process, pid: 414698
-12:23:59 [INFO] Successfully removed pid: 414699 from ZOMBIE_PROCESSES
-12:23:59 [INFO] Freeing process, pid: 414699
-12:24:33 [INFO] process exit, pid: 414049, parent_pid: 400677
-12:24:33 [INFO] process exec, pid: 414700, comm: sleep, uid: 1000, euid: 1000, suid: 1000
-12:24:33 [INFO] Successfully removed pid: 414049 from ZOMBIE_PROCESSES
-12:24:33 [INFO] Freeing process, pid: 414049
-12:24:39 [INFO] process exec, pid: 414701, comm: git, uid: 1000, euid: 1000, suid: 1000
-12:24:39 [INFO] process exit, pid: 414701, parent_pid: 400748
-12:24:39 [INFO] process exec, pid: 414702, comm: git, uid: 1000, euid: 1000, suid: 1000
-12:24:39 [INFO] process exit, pid: 414702, parent_pid: 400748
-12:24:39 [INFO] process exec, pid: 414703, comm: git, uid: 1000, euid: 1000, suid: 1000
-12:24:39 [INFO] process exit, pid: 414703, parent_pid: 400748
-12:24:39 [INFO] process exec, pid: 414704, comm: git, uid: 1000, euid: 1000, suid: 1000
-12:24:39 [INFO] process exit, pid: 414704, parent_pid: 400748
-12:24:39 [INFO] Successfully removed pid: 414701 from ZOMBIE_PROCESSES
-12:24:39 [INFO] Freeing process, pid: 414701
-12:24:39 [INFO] Successfully removed pid: 414702 from ZOMBIE_PROCESSES
-12:24:39 [INFO] Freeing process, pid: 414702
-12:24:39 [INFO] Successfully removed pid: 414703 from ZOMBIE_PROCESSES
-12:24:39 [INFO] Freeing process, pid: 414703
-12:24:39 [INFO] Successfully removed pid: 414704 from ZOMBIE_PROCESSES
-12:24:39 [INFO] Freeing process, pid: 414704
-12:24:41 [INFO] process exit, pid: 414058, parent_pid: 400363
-12:24:41 [INFO] process exec, pid: 414705, comm: sleep, uid: 1000, euid: 1000, suid: 1000
-12:24:41 [INFO] Successfully removed pid: 414058 from ZOMBIE_PROCESSES
-12:24:41 [INFO] Freeing process, pid: 414058
+12:33:02 [INFO] process exec, pid: 416080, comm: sh, uid: 1000, euid: 1000, suid: 1000
+12:33:02 [INFO] process exec, pid: 416081, comm: which, uid: 1000, euid: 1000, suid: 1000
+12:33:02 [INFO] process exit, pid: 416081, parent_pid: 416080
+12:33:02 [INFO] process exit, pid: 416080, parent_pid: 347489
+12:33:02 [INFO] process exec, pid: 416082, comm: sh, uid: 1000, euid: 1000, suid: 1000
+12:33:02 [INFO] process exec, pid: 416083, comm: ps, uid: 1000, euid: 1000, suid: 1000
+12:33:02 [INFO] process exit, pid: 416083, parent_pid: 416082
+12:33:02 [INFO] process exit, pid: 416082, parent_pid: 347489
+12:33:02 [INFO] process exec, pid: 416084, comm: sh, uid: 1000, euid: 1000, suid: 1000
+12:33:02 [INFO] process exec, pid: 416085, comm: cpuUsage.sh, uid: 1000, euid: 1000, suid: 1000
+12:33:02 [INFO] process exec, pid: 416086, comm: sed, uid: 1000, euid: 1000, suid: 1000
+12:33:02 [INFO] Successfully removed pid: 416081 from ZOMBIE_PROCESSES
+12:33:02 [INFO] Freeing process, pid: 416081
+12:33:02 [INFO] Successfully removed pid: 416080 from ZOMBIE_PROCESSES
+12:33:02 [INFO] Freeing process, pid: 416080
+12:33:02 [INFO] process exit, pid: 416086, parent_pid: 416085
+12:33:02 [INFO] process exec, pid: 416087, comm: cat, uid: 1000, euid: 1000, suid: 1000
+12:33:02 [INFO] process exit, pid: 416087, parent_pid: 416085
+12:33:02 [INFO] process exec, pid: 416088, comm: cat, uid: 1000, euid: 1000, suid: 1000
+12:33:02 [INFO] process exit, pid: 416088, parent_pid: 416085
+12:33:02 [INFO] process exec, pid: 416089, comm: cat, uid: 1000, euid: 1000, suid: 1000
+12:33:02 [INFO] process exit, pid: 416089, parent_pid: 416085
+12:33:02 [INFO] process exec, pid: 416090, comm: cat, uid: 1000, euid: 1000, suid: 1000
+12:33:02 [INFO] process exit, pid: 416090, parent_pid: 416085
+12:33:02 [INFO] process exec, pid: 416091, comm: cat, uid: 1000, euid: 1000, suid: 1000
+12:33:02 [INFO] process exit, pid: 416091, parent_pid: 416085
+12:33:02 [INFO] process exec, pid: 416092, comm: cat, uid: 1000, euid: 1000, suid: 1000
+12:33:02 [INFO] process exit, pid: 416092, parent_pid: 416085
+12:33:02 [INFO] process exec, pid: 416093, comm: sleep, uid: 1000, euid: 1000, suid: 1000
+12:33:02 [INFO] Successfully removed pid: 416083 from ZOMBIE_PROCESSES
+12:33:02 [INFO] Successfully removed pid: 416088 from ZOMBIE_PROCESSES
+12:33:02 [INFO] Successfully removed pid: 416086 from ZOMBIE_PROCESSES
+12:33:02 [INFO] Freeing process, pid: 416088
+12:33:02 [INFO] Freeing process, pid: 416083
+12:33:02 [INFO] Successfully removed pid: 416082 from ZOMBIE_PROCESSES
+12:33:02 [INFO] Freeing process, pid: 416082
+12:33:02 [INFO] Freeing process, pid: 416086
+12:33:02 [INFO] Successfully removed pid: 416087 from ZOMBIE_PROCESSES
+12:33:02 [INFO] Successfully removed pid: 416091 from ZOMBIE_PROCESSES
+12:33:02 [INFO] Successfully removed pid: 416092 from ZOMBIE_PROCESSES
+12:33:02 [INFO] Freeing process, pid: 416092
+12:33:02 [INFO] Freeing process, pid: 416091
+12:33:02 [INFO] Freeing process, pid: 416087
+12:33:02 [INFO] Successfully removed pid: 416090 from ZOMBIE_PROCESSES
+12:33:02 [INFO] Freeing process, pid: 416090
+12:33:02 [INFO] Successfully removed pid: 416089 from ZOMBIE_PROCESSES
+12:33:02 [INFO] Freeing process, pid: 416089
+12:33:03 [INFO] process exit, pid: 416093, parent_pid: 416085
+12:33:03 [INFO] process exec, pid: 416094, comm: sed, uid: 1000, euid: 1000, suid: 1000
+12:33:03 [INFO] process exit, pid: 416094, parent_pid: 416085
+12:33:03 [INFO] process exec, pid: 416095, comm: cat, uid: 1000, euid: 1000, suid: 1000
+12:33:03 [INFO] process exit, pid: 416095, parent_pid: 416085
+12:33:03 [INFO] process exit, pid: 416096, parent_pid: 416085
+12:33:03 [INFO] process exec, pid: 416097, comm: cat, uid: 1000, euid: 1000, suid: 1000
+12:33:03 [INFO] process exit, pid: 416097, parent_pid: 416085
+12:33:03 [INFO] process exit, pid: 416098, parent_pid: 416085
+12:33:03 [INFO] process exec, pid: 416099, comm: cat, uid: 1000, euid: 1000, suid: 1000
+12:33:03 [INFO] process exit, pid: 416099, parent_pid: 416085
+12:33:03 [INFO] process exit, pid: 416100, parent_pid: 416085
+12:33:03 [INFO] process exec, pid: 416101, comm: cat, uid: 1000, euid: 1000, suid: 1000
+12:33:03 [INFO] process exit, pid: 416101, parent_pid: 416085
+12:33:03 [INFO] process exit, pid: 416102, parent_pid: 416085
+12:33:03 [INFO] process exec, pid: 416103, comm: cat, uid: 1000, euid: 1000, suid: 1000
+12:33:03 [INFO] process exit, pid: 416103, parent_pid: 416085
+12:33:03 [INFO] process exit, pid: 416104, parent_pid: 416085
+12:33:03 [INFO] process exec, pid: 416105, comm: cat, uid: 1000, euid: 1000, suid: 1000
+12:33:03 [INFO] process exit, pid: 416105, parent_pid: 416085
+12:33:03 [INFO] process exit, pid: 416106, parent_pid: 416085
+12:33:03 [INFO] process exit, pid: 416085, parent_pid: 416084
+12:33:03 [INFO] process exit, pid: 416084, parent_pid: 347489
+12:33:03 [INFO] Successfully removed pid: 416093 from ZOMBIE_PROCESSES
+12:33:03 [INFO] Freeing process, pid: 416093
+12:33:03 [INFO] Successfully removed pid: 416096 from ZOMBIE_PROCESSES
+12:33:03 [INFO] Freeing process, pid: 416096
+12:33:03 [INFO] Successfully removed pid: 416099 from ZOMBIE_PROCESSES
+12:33:03 [INFO] Freeing process, pid: 416099
+12:33:03 [INFO] Successfully removed pid: 416106 from ZOMBIE_PROCESSES
+12:33:03 [INFO] Freeing process, pid: 416106
+12:33:03 [INFO] Successfully removed pid: 416094 from ZOMBIE_PROCESSES
+12:33:03 [INFO] Freeing process, pid: 416094
+12:33:03 [INFO] Successfully removed pid: 416098 from ZOMBIE_PROCESSES
+12:33:03 [INFO] Freeing process, pid: 416098
+12:33:03 [INFO] Successfully removed pid: 416097 from ZOMBIE_PROCESSES
+12:33:03 [INFO] Successfully removed pid: 416101 from ZOMBIE_PROCESSES
+12:33:03 [INFO] Freeing process, pid: 416101
+12:33:03 [INFO] Successfully removed pid: 416103 from ZOMBIE_PROCESSES
+12:33:03 [INFO] Successfully removed pid: 416100 from ZOMBIE_PROCESSES
+12:33:03 [INFO] Freeing process, pid: 416100
+12:33:03 [INFO] Freeing process, pid: 416103
+12:33:03 [INFO] Freeing process, pid: 416097
+12:33:03 [INFO] Successfully removed pid: 416095 from ZOMBIE_PROCESSES
+12:33:03 [INFO] Freeing process, pid: 416095
+12:33:03 [INFO] Successfully removed pid: 416105 from ZOMBIE_PROCESSES
+12:33:03 [INFO] Successfully removed pid: 416084 from ZOMBIE_PROCESSES
+12:33:03 [INFO] Freeing process, pid: 416084
+12:33:03 [INFO] Freeing process, pid: 416105
+12:33:03 [INFO] Successfully removed pid: 416102 from ZOMBIE_PROCESSES
+12:33:03 [INFO] Successfully removed pid: 416085 from ZOMBIE_PROCESSES
+12:33:03 [INFO] Freeing process, pid: 416102
+12:33:03 [INFO] Freeing process, pid: 416085
+12:33:03 [INFO] Successfully removed pid: 416104 from ZOMBIE_PROCESSES
+12:33:03 [INFO] Freeing process, pid: 416104
+12:33:05 [INFO] process exec, pid: 416107, comm: git, uid: 1000, euid: 1000, suid: 1000
+12:33:05 [INFO] process exit, pid: 416107, parent_pid: 400748
+12:33:05 [INFO] process exec, pid: 416109, comm: git, uid: 1000, euid: 1000, suid: 1000
+12:33:05 [INFO] process exit, pid: 416109, parent_pid: 400748
+12:33:05 [INFO] process exec, pid: 416110, comm: git, uid: 1000, euid: 1000, suid: 1000
+12:33:05 [INFO] process exit, pid: 416110, parent_pid: 400748
+12:33:05 [INFO] process exit, pid: 416113, parent_pid: 400748
+12:33:05 [INFO] Successfully removed pid: 416107 from ZOMBIE_PROCESSES
+12:33:05 [INFO] Freeing process, pid: 416107
+12:33:05 [INFO] process exit, pid: 416112, parent_pid: 400748
+12:33:05 [INFO] process exec, pid: 416114, comm: git, uid: 1000, euid: 1000, suid: 1000
+12:33:05 [INFO] process exit, pid: 416114, parent_pid: 400748
+12:33:05 [INFO] process exit, pid: 416111, parent_pid: 400748
+12:33:05 [INFO] process exit, pid: 416108, parent_pid: 400748
+12:33:05 [INFO] Successfully removed pid: 416109 from ZOMBIE_PROCESSES
+12:33:05 [INFO] Freeing process, pid: 416109
+12:33:05 [INFO] process exec, pid: 416115, comm: git, uid: 1000, euid: 1000, suid: 1000
+12:33:05 [INFO] process exit, pid: 416115, parent_pid: 400748
+12:33:05 [INFO] Successfully removed pid: 416112 from ZOMBIE_PROCESSES
+12:33:05 [INFO] Freeing process, pid: 416112
+12:33:05 [INFO] Successfully removed pid: 416113 from ZOMBIE_PROCESSES
+12:33:05 [INFO] Freeing process, pid: 416113
+12:33:05 [INFO] Successfully removed pid: 416111 from ZOMBIE_PROCESSES
+12:33:05 [INFO] Freeing process, pid: 416111
+12:33:05 [INFO] Successfully removed pid: 416108 from ZOMBIE_PROCESSES
+12:33:05 [INFO] Freeing process, pid: 416108
+12:33:05 [INFO] process exec, pid: 416116, comm: git, uid: 1000, euid: 1000, suid: 1000
+12:33:05 [INFO] process exit, pid: 416116, parent_pid: 400748
+12:33:05 [INFO] Successfully removed pid: 416110 from ZOMBIE_PROCESSES
+12:33:05 [INFO] Freeing process, pid: 416110
+12:33:05 [INFO] Successfully removed pid: 416114 from ZOMBIE_PROCESSES
+12:33:05 [INFO] Freeing process, pid: 416114
+12:33:05 [INFO] Successfully removed pid: 416115 from ZOMBIE_PROCESSES
+12:33:05 [INFO] Freeing process, pid: 416115
+12:33:05 [INFO] process exec, pid: 416117, comm: git, uid: 1000, euid: 1000, suid: 1000
+12:33:05 [INFO] process exit, pid: 416117, parent_pid: 400748
+12:33:05 [INFO] Successfully removed pid: 416116 from ZOMBIE_PROCESSES
+12:33:05 [INFO] Freeing process, pid: 416116
+12:33:05 [INFO] Successfully removed pid: 416117 from ZOMBIE_PROCESSES
+12:33:05 [INFO] Freeing process, pid: 416117
+12:33:05 [INFO] process exec, pid: 416118, comm: git, uid: 1000, euid: 1000, suid: 1000
+12:33:05 [INFO] process exit, pid: 416118, parent_pid: 400748
+12:33:05 [INFO] Successfully removed pid: 416118 from ZOMBIE_PROCESSES
+12:33:05 [INFO] Freeing process, pid: 416118
+12:33:07 [INFO] process exec, pid: 416120, comm: sh, uid: 1000, euid: 1000, suid: 1000
+12:33:07 [INFO] process exec, pid: 416121, comm: which, uid: 1000, euid: 1000, suid: 1000
+12:33:07 [INFO] process exit, pid: 416121, parent_pid: 416120
+12:33:07 [INFO] process exec, pid: 416122, comm: sh, uid: 1000, euid: 1000, suid: 1000
+12:33:07 [INFO] process exit, pid: 416120, parent_pid: 347489
+12:33:07 [INFO] process exec, pid: 416123, comm: ps, uid: 1000, euid: 1000, suid: 1000
+12:33:07 [INFO] process exit, pid: 416123, parent_pid: 416122
+12:33:07 [INFO] process exit, pid: 416122, parent_pid: 347489
+12:33:07 [INFO] process exec, pid: 416124, comm: sh, uid: 1000, euid: 1000, suid: 1000
+12:33:07 [INFO] Successfully removed pid: 416120 from ZOMBIE_PROCESSES
+12:33:07 [INFO] Freeing process, pid: 416120
+12:33:07 [INFO] process exec, pid: 416125, comm: cpuUsage.sh, uid: 1000, euid: 1000, suid: 1000
+12:33:07 [INFO] process exec, pid: 416126, comm: sed, uid: 1000, euid: 1000, suid: 1000
+12:33:07 [INFO] process exit, pid: 416126, parent_pid: 416125
+12:33:07 [INFO] process exec, pid: 416127, comm: cat, uid: 1000, euid: 1000, suid: 1000
+12:33:07 [INFO] process exit, pid: 416127, parent_pid: 416125
+12:33:07 [INFO] process exec, pid: 416128, comm: cat, uid: 1000, euid: 1000, suid: 1000
+12:33:07 [INFO] process exit, pid: 416128, parent_pid: 416125
+12:33:07 [INFO] process exec, pid: 416129, comm: cat, uid: 1000, euid: 1000, suid: 1000
+12:33:07 [INFO] process exit, pid: 416129, parent_pid: 416125
+12:33:07 [INFO] process exec, pid: 416130, comm: cat, uid: 1000, euid: 1000, suid: 1000
+12:33:07 [INFO] process exit, pid: 416130, parent_pid: 416125
+12:33:07 [INFO] process exec, pid: 416131, comm: cat, uid: 1000, euid: 1000, suid: 1000
+12:33:07 [INFO] process exit, pid: 416131, parent_pid: 416125
+12:33:07 [INFO] process exec, pid: 416132, comm: cat, uid: 1000, euid: 1000, suid: 1000
+12:33:07 [INFO] process exit, pid: 416132, parent_pid: 416125
+12:33:07 [INFO] process exec, pid: 416133, comm: sleep, uid: 1000, euid: 1000, suid: 1000
+12:33:07 [INFO] Successfully removed pid: 416121 from ZOMBIE_PROCESSES
+12:33:07 [INFO] Freeing process, pid: 416121
+12:33:07 [INFO] Successfully removed pid: 416131 from ZOMBIE_PROCESSES
+12:33:07 [INFO] Successfully removed pid: 416130 from ZOMBIE_PROCESSES
+12:33:07 [INFO] Freeing process, pid: 416130
+12:33:07 [INFO] Successfully removed pid: 416123 from ZOMBIE_PROCESSES
+12:33:07 [INFO] Successfully removed pid: 416122 from ZOMBIE_PROCESSES
+12:33:07 [INFO] Freeing process, pid: 416122
+12:33:07 [INFO] Freeing process, pid: 416131
+12:33:07 [INFO] Successfully removed pid: 416126 from ZOMBIE_PROCESSES
+12:33:07 [INFO] Freeing process, pid: 416126
+12:33:07 [INFO] Freeing process, pid: 416123
+12:33:07 [INFO] Successfully removed pid: 416127 from ZOMBIE_PROCESSES
+12:33:07 [INFO] Freeing process, pid: 416127
+12:33:07 [INFO] Successfully removed pid: 416128 from ZOMBIE_PROCESSES
+12:33:07 [INFO] Freeing process, pid: 416128
+12:33:07 [INFO] Successfully removed pid: 416129 from ZOMBIE_PROCESSES
+12:33:07 [INFO] Freeing process, pid: 416129
+12:33:07 [INFO] Successfully removed pid: 416132 from ZOMBIE_PROCESSES
+12:33:07 [INFO] Freeing process, pid: 416132
+12:33:08 [INFO] process exit, pid: 416133, parent_pid: 416125
+12:33:08 [INFO] process exec, pid: 416134, comm: sed, uid: 1000, euid: 1000, suid: 1000
+12:33:08 [INFO] process exit, pid: 416134, parent_pid: 416125
+12:33:08 [INFO] process exec, pid: 416135, comm: cat, uid: 1000, euid: 1000, suid: 1000
+12:33:08 [INFO] process exit, pid: 416135, parent_pid: 416125
+12:33:08 [INFO] process exit, pid: 416136, parent_pid: 416125
+12:33:08 [INFO] process exec, pid: 416137, comm: cat, uid: 1000, euid: 1000, suid: 1000
+12:33:08 [INFO] process exit, pid: 416137, parent_pid: 416125
+12:33:08 [INFO] process exit, pid: 416138, parent_pid: 416125
+12:33:08 [INFO] process exec, pid: 416139, comm: cat, uid: 1000, euid: 1000, suid: 1000
+12:33:08 [INFO] process exit, pid: 416139, parent_pid: 416125
+12:33:08 [INFO] process exit, pid: 416140, parent_pid: 416125
+12:33:08 [INFO] process exec, pid: 416141, comm: cat, uid: 1000, euid: 1000, suid: 1000
+12:33:08 [INFO] process exit, pid: 416141, parent_pid: 416125
+12:33:08 [INFO] process exit, pid: 416142, parent_pid: 416125
+12:33:08 [INFO] process exec, pid: 416143, comm: cat, uid: 1000, euid: 1000, suid: 1000
+12:33:08 [INFO] process exit, pid: 416143, parent_pid: 416125
+12:33:08 [INFO] process exit, pid: 416144, parent_pid: 416125
+12:33:08 [INFO] process exec, pid: 416145, comm: cat, uid: 1000, euid: 1000, suid: 1000
+12:33:08 [INFO] process exit, pid: 416145, parent_pid: 416125
+12:33:08 [INFO] process exit, pid: 416146, parent_pid: 416125
+12:33:08 [INFO] process exit, pid: 416125, parent_pid: 416124
+12:33:08 [INFO] process exit, pid: 416124, parent_pid: 347489
+12:33:08 [INFO] Successfully removed pid: 416138 from ZOMBIE_PROCESSES
+12:33:08 [INFO] Freeing process, pid: 416138
+12:33:08 [INFO] Successfully removed pid: 416143 from ZOMBIE_PROCESSES
+12:33:08 [INFO] Freeing process, pid: 416143
+12:33:08 [INFO] Successfully removed pid: 416133 from ZOMBIE_PROCESSES
+12:33:08 [INFO] Successfully removed pid: 416137 from ZOMBIE_PROCESSES
+12:33:08 [INFO] Freeing process, pid: 416133
+12:33:08 [INFO] Freeing process, pid: 416137
+12:33:08 [INFO] Successfully removed pid: 416134 from ZOMBIE_PROCESSES
+12:33:08 [INFO] Freeing process, pid: 416134
+12:33:08 [INFO] Successfully removed pid: 416125 from ZOMBIE_PROCESSES
+12:33:08 [INFO] Freeing process, pid: 416125
+12:33:08 [INFO] Successfully removed pid: 416135 from ZOMBIE_PROCESSES
+12:33:08 [INFO] Successfully removed pid: 416140 from ZOMBIE_PROCESSES
+12:33:08 [INFO] Successfully removed pid: 416124 from ZOMBIE_PROCESSES
+12:33:08 [INFO] Successfully removed pid: 416145 from ZOMBIE_PROCESSES
+12:33:08 [INFO] Freeing process, pid: 416145
+12:33:08 [INFO] Freeing process, pid: 416135
+12:33:08 [INFO] Freeing process, pid: 416124
+12:33:08 [INFO] Successfully removed pid: 416136 from ZOMBIE_PROCESSES
+12:33:08 [INFO] Freeing process, pid: 416140
+12:33:08 [INFO] Successfully removed pid: 416146 from ZOMBIE_PROCESSES
+12:33:08 [INFO] Freeing process, pid: 416146
+12:33:08 [INFO] Freeing process, pid: 416136
+12:33:08 [INFO] Successfully removed pid: 416139 from ZOMBIE_PROCESSES
+12:33:08 [INFO] Freeing process, pid: 416139
+12:33:08 [INFO] Successfully removed pid: 416144 from ZOMBIE_PROCESSES
+12:33:08 [INFO] Freeing process, pid: 416144
+12:33:08 [INFO] Successfully removed pid: 416141 from ZOMBIE_PROCESSES
+12:33:08 [INFO] Freeing process, pid: 416141
+12:33:08 [INFO] Successfully removed pid: 416142 from ZOMBIE_PROCESSES
+12:33:08 [INFO] Freeing process, pid: 416142

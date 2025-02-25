@@ -1,0 +1,4 @@
+/home/xm/ebpf/c_code/build/CMakeFiles/zombie.dir
+/home/xm/ebpf/c_code/build/CMakeFiles/c_test.dir
+/home/xm/ebpf/c_code/build/CMakeFiles/edit_cache.dir
+/home/xm/ebpf/c_code/build/CMakeFiles/rebuild_cache.dir
